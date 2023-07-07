@@ -13,7 +13,7 @@ import {
   playQuizEnd,
 } from "../utils/playSound";
 
-const TIME_LIMIT = 60; // 1 minute per question
+const TIME_LIMIT = 120; // 1 minute per question
 
 export const Quiz = () => {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -103,7 +103,7 @@ export const Quiz = () => {
 
     // Check if answer is correct
     const correctAnswer = quizQuestions[activeQuestion].correctAnswer;
-    const selectedAnswer = quizQuestions[activeQuestion].options[answerIndex];
+    const selectedAnswer = answerIndex;
 
     if (correctAnswer === selectedAnswer) {
       console.log("Correct answer!");
@@ -188,7 +188,7 @@ export const Quiz = () => {
             </span>
           </div>
 
-          <h4 className="text-brand-midnight font-medium text-base mt-[34px]">
+          <h4 className="font-jakarta font-extralarge text-base mt-[34px]">
             {question}
           </h4>
         </div>

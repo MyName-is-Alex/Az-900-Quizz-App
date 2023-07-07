@@ -1,0 +1,1190 @@
+[
+  {
+    "question": "You ar e configuring the two datacenters as geo-cluster ed sites for site r esiliency .\nYou need t o recommend an A zure storage r edundancy option.\nYou ha ve the following data st orage r equir ements:\n\u2711 Data must be st ored on multiple nodes.\n\u2711 Data must be st ored on nodes in separ ate geogr aphic locations.\n\u2711 Data can be r ead fr om the secondar y location as well as fr om the primar y location\nWhich of the following A zure stored redundancy options should y ou recommend?",
+    "options": [
+      "A. Geo-r edundant st orage",
+      "B. Read-only geo-r edundant st orage",
+      "C. Zone-r edundant st orage",
+      "D. Locally r edundant st orage"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's Azure subscription includes a Basic suppor t plan.\nThey would lik e to request an assessment of an A zure envir onment' s design fr om Micr osoft. This is, howe ver, not suppor ted b y the existing plan.\nYou want t o mak e sur e that the company subscribes t o a suppor t plan that allows this functionality , while k eeping expenses t o a minimum.\nSolution: Y ou recommend that the company subscribes t o the Pr ofessional Dir ect suppor t plan.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying A zure virtual machines for y our company .\nYou need t o mak e use of the appr opriate cloud deplo yment solution.\nSolution: Y ou should mak e use of Softwar e as a Ser vice (SaaS).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying A zure virtual machines for y our company .\nYou need t o mak e use of the appr opriate cloud deplo yment solution.\nSolution: Y ou should mak e use of Platform as a Ser vice (P aaS).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying A zure virtual machines for y our company .\nYou need t o mak e use of the appr opriate cloud deplo yment solution.\nSolution: Y ou should mak e use of Infr astructur e as a Ser vice (IaaS).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You need t o determine which A zure web tier plan t o host the web apps. The web tier plan must meet the following r equir ements:\n\u2711 The web apps will use cust om domains.\n\u2711 The web apps each r equir e 10 GB of st orage.\n\u2711 The web apps must each run in dedicated compute instances.\n\u2711 Load balancing between instances must be included.\n\u2711 Costs must be minimiz ed.\nWhich web tier plan should y ou use?",
+    "options": ["A. Standar d", "B. Basic", "C. Free", "D. Shar ed"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e planning t o migr ate a company t o Azure. Each of the company 's numer ous divisions will ha ve an administr ator in place t o manage the\nAzure resour ces used b y their r espectiv e division.\nYou want t o mak e sur e that the A zure deplo yment y ou emplo y allows for A zure to be segmented for the divisions, while k eeping administr ative\neffor t to a minimum.\nSolution: Y ou plan t o mak e use of se veral Azure Activ e Dir ectory (Azure AD) dir ectories.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Miami users t o retrie ve cust omer and pr oduct information. The web app is curr ently running in an on-pr emises test envir onment.\nYou plan t o host the web app on A zure.\nYou need t o determine which A zure web tier plan t o host the web app. The web tier plan must meet the following r equir ements:\n\u2711 The website will use the miami.we yland.com URL.\n\u2711 The website will be deplo yed to two instances.\n\u2711 SSL suppor t must be included.\n\u2711 The website r equir es 12 GB of st orage.\n\u2711 Costs must be minimiz ed.\nWhich web tier plan should y ou use?",
+    "options": ["A. Standar d", "B. Basic", "C. Free", "D. Shar ed"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company is planning t o migr ate all their vir tual machines t o an A zure pay-as-y ou-go subscription. The vir tual machines ar e curr ently hosted\non the Hyper-V hosts in a data center .\nYou ar e requir ed mak e sur e that the intended A zure solution uses the corr ect expenditur e model.\nSolution: Y ou should r ecommend the use of the elastic expenditur e model.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company is planning t o migr ate all their vir tual machines t o an A zure pay-as-y ou-go subscription. The vir tual machines ar e curr ently hosted\non the Hyper-V hosts in a data center .\nYou ar e requir ed mak e sur e that the intended A zure solution uses the corr ect expenditur e model.\nSolution: Y ou should r ecommend the use of the scalable expenditur e model.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company is planning t o migr ate all their vir tual machines t o an A zure pay-as-y ou-go subscription. The vir tual machines ar e curr ently hosted\non the Hyper-V hosts in a data center .\nYou ar e requir ed mak e sur e that the intended A zure solution uses the corr ect expenditur e model.\nSolution: Y ou should r ecommend the use of the oper ational expenditur e model.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e requir ed to deplo y an Ar tificial Intelligence (AI) solution in A zure.\nYou want t o mak e sur e that y ou ar e able t o build, test, and deplo y predictiv e analytics for the solution.\nSolution: Y ou should mak e use of A zure Cosmos DB.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's Activ e Dir ectory for est includes thousands of user accounts.\nYou ha ve been informed that all network r esour ces will be migr ated t o Azure. Ther eafter , the on-pr emises data center will be r etired.\nYou ar e requir ed to emplo y a str ategy that r educes the eff ect on users, once the planned migr ation has been completed.\nSolution: Y ou plan t o sync all the Activ e Dir ectory user accounts t o Azure Activ e Dir ectory (Azure AD).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e requir ed to deplo y an Ar tificial Intelligence (AI) solution in A zure.\nYou want t o mak e sur e that y ou ar e able t o build, test, and deplo y predictiv e analytics for the solution.\nSolution: Y ou should mak e use of A zure Machine Learning Studio.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's infr astructur e includes a number of business units that each need a lar ge number of v arious A zure resour ces for e veryday\noper ation.\nThe r esour ces r equir ed by each business unit ar e identical.\nYou ar e requir ed to sanction a str ategy t o create A zure resour ces aut omatically .\nSolution: Y ou recommend that the A zure API Management ser vice be included in the str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's infr astructur e includes a number of business units that each need a lar ge number of v arious A zure resour ces for e veryday\noper ation.\nThe r esour ces r equir ed by each business unit ar e identical.\nYou ar e requir ed to sanction a str ategy t o create A zure resour ces aut omatically .\nSolution: Y ou recommend that management gr oups be included in the str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's infr astructur e includes a number of business units that each need a lar ge number of v arious A zure resour ces for e veryday\noper ation.\nThe r esour ces r equir ed by each business unit ar e identical.\nYou ar e requir ed to sanction a str ategy t o create A zure resour ces aut omatically .\nSolution: Y ou recommend that the A zure Resour ce Manager templates be included in the str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying a critical L OB application, which will be installed on a vir tual machine, t o Azure.\nYou ar e informed that the application deplo yment str ategy should allow for a guar anteed a vailability of 99.99 per cent. Y ou need t o mak e sur e that\nthe str ategy r equir es as little vir tual machines and a vailability z ones as possible.\nSolution: Y ou include two vir tual machines and one a vailability z one in y our str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying a critical L OB application, which will be installed on a vir tual machine, t o Azure.\nYou ar e informed that the application deplo yment str ategy should allow for a guar anteed a vailability of 99.99 per cent. Y ou need t o mak e sur e that\nthe str ategy r equir es as little vir tual machines and a vailability z ones as possible.\nSolution: Y ou include one vir tual machine and two a vailability z ones in y our str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e task ed with deplo ying a critical L OB application, which will be installed on a vir tual machine, t o Azure.\nYou ar e informed that the application deplo yment str ategy should allow for a guar anteed a vailability of 99.99 per cent. Y ou need t o mak e sur e that\nthe str ategy r equir es as little vir tual machines and a vailability z ones as possible.\nSolution: Y ou include two vir tual machines and two a vailability z ones in y our str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's developers intend t o deplo y a lar ge number of cust om vir tual machines on a weekly basis. They will also be r emoving these vir tual\nmachines during the same week it was deplo yed. Sixty per cent of the vir tual machines ha ve Windows Ser ver 2016 installed, while the other for ty\npercent has Ubuntu Linux installed.\nYou ar e requir ed to mak e sur e that the administr ative effor t, needed for this pr ocess, is r educed b y emplo ying a suitable A zure ser vice.\nSolution: Y ou recommend the use of Micr osoft Managed Deskt op.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's developers intend t o deplo y a lar ge number of cust om vir tual machines on a weekly basis. They will also be r emoving these vir tual\nmachines during the same week it was deplo yed. Sixty per cent of the vir tual machines ha ve Windows Ser ver 2016 installed, while the other for ty\npercent has Ubuntu Linux installed.\nYou ar e requir ed to mak e sur e that the administr ative effor t, needed for this pr ocess, is r educed b y emplo ying a suitable A zure ser vice.\nSolution: Y ou recommend the use of A zure Reser ved Vir tual Machines ( VM) Instances.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's developers intend t o deplo y a lar ge number of cust om vir tual machines on a weekly basis. They will also be r emoving these vir tual\nmachines during the same week it was deplo yed. Sixty per cent of the vir tual machines ha ve Windows Ser ver 2016 installed, while the other for ty\npercent has Ubuntu Linux installed.\nYou ar e requir ed to mak e sur e that the administr ative effor t, needed for this pr ocess, is r educed b y emplo ying a suitable A zure ser vice.\nSolution: Y ou recommend the use of A zure De vTest Labs.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The company has users that work r emotely . The r emote work ers r equir e access t o the VMs on VNet1.\nYou need t o provide access for the r emote work ers.\nWhat should y ou do?",
+    "options": [
+      "A. Configur e a Site-t o-Site (S2S) VPN.",
+      "B. Configur e a VNet-t oVNet VPN.",
+      "C. Configur e a P oint-t o-Site (P2S) VPN.",
+      "D. Configur e Dir ectAccess on a Windows Ser ver 2012 ser ver VM.",
+      "E. Configur e a Multi-Site VPN"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ha ve been informed b y your superiors of the company 's intentions t o aut omate ser ver deplo yment t o Azure. Ther e is, howe ver, some concern\nthat administr ative credentials could be unco vered during this pr ocess.\nYou ar e requir ed to mak e sur e that during the deplo yment, the administr ative credentials ar e encr ypted using a suitable A zure solution.\nSolution: Y ou recommend the use of A zure Information Pr otection.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ha ve been informed b y your superiors of the company 's intentions t o aut omate ser ver deplo yment t o Azure. Ther e is, howe ver, some concern\nthat administr ative credentials could be unco vered during this pr ocess.\nYou ar e requir ed to mak e sur e that during the deplo yment, the administr ative credentials ar e encr ypted using a suitable A zure solution.\nSolution: Y ou recommend the use of A zure Multi-F actor Authentication (MF A).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company has an A zure Activ e Dir ectory (Azure AD) envir onment. Users occasionally connect t o Azure AD via the Internet.\nYou ha ve been task ed with making sur e that users who connect t o Azure AD via the internet fr om an unidentified IP addr ess, ar e aut omatically\nencour aged t o change passwor ds.\nSolution: Y ou configur e the use of A zure AD Identity Pr otection.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company has an A zure Activ e Dir ectory (Azure AD) envir onment. Users occasionally connect t o Azure AD via the Internet.\nYou ha ve been task ed with making sur e that users who connect t o Azure AD via the internet fr om an unidentified IP addr ess, ar e aut omatically\nencour aged t o change passwor ds.\nSolution: Y ou configur e the use of A zure AD Privileged Identity Management.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e planning a str ategy t o deplo y numer ous web ser vers and database ser vers t o Azure.\nThis str ategy should allow for connection types between the web ser vers and database ser vers t o be contr olled.\nSolution: Y ou include network security gr oups (NSGs) in y our str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYou ar e planning a str ategy t o deplo y numer ous web ser vers and database ser vers t o Azure.\nThis str ategy should allow for connection types between the web ser vers and database ser vers t o be contr olled.\nSolution: Y ou include a local network gatewa y in y our str ategy .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Establish if the solution satisfies the r equir ements.\nYour company 's Activ e Dir ectory for est includes thousands of user accounts.\nYou ha ve been informed that all network r esour ces will be migr ated t o Azure. Ther eafter , the on-pr emises data center will be r etired.\nYou ar e requir ed to emplo y a str ategy that r educes the eff ect on users, once the planned migr ation has been completed.\nSolution: Y ou plan t o requir e Azure Multi-F actor Authentication (MF A).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You plan t o migr ate all the ser vers t o Azure.\nYou need t o recommend a solution t o ensur e that some of the ser vers ar e available if a single A zure data center goes ofiine for an extended\nperiod.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. fault t olerance",
+      "B. elasticity",
+      "C. scalability",
+      "D. low latency"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "NOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. dedicated har dwar e",
+      "B. unsecur ed connections",
+      "C. limited st orage",
+      "D. meter ed pricing",
+      "E. self-ser vice management"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o migr ate all its data and r esour ces t o Azure.\nThe company 's migr ation plan states that only Platform as a Ser vice (P aaS) solutions must be used in A zure.\nYou need t o deplo y an A zure envir onment that meets the company migr ation plan.\nSolution: Y ou cr eate an A zure App Ser vice and A zure SQL databases.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o migr ate all its data and r esour ces t o Azure.\nThe company 's migr ation plan states that only Platform as a Ser vice (P aaS) solutions must be used in A zure.\nYou need t o deplo y an A zure envir onment that meets the company migr ation plan.\nSolution: Y ou cr eate an A zure App Ser vice and A zure virtual machines that ha ve Micr osoft SQL Ser ver installed.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o migr ate all its data and r esour ces t o Azure.\nThe company 's migr ation plan states that only Platform as a Ser vice (P aaS) solutions must be used in A zure.\nYou need t o deplo y an A zure envir onment that meets the company migr ation plan.\nSolution: Y ou cr eate an A zure App Ser vice and A zure Storage accounts.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "App1 has low usage during the first thr ee weeks of each month and v ery high usage during the last week of each month.\nWhich benefit of A zure Cloud Ser vices suppor ts cost management for this type of usage pattern?",
+    "options": [
+      "A. high a vailability",
+      "B. high latency",
+      "C. elasticity",
+      "D. load balancing"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o recommend a cloud deplo yment solution t o minimiz e the amount of administr ative effor t used t o manage the web application.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. Softwar e as a Ser vice (SaaS)",
+      "B. Platform as a Ser vice (P aaS)",
+      "C. Infrastructur e as a Ser vice (IaaS)",
+      "D. Database as a Ser vice (DaaS)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o recommend a solution that pr ovides additional r esour ces t o your users. The solution must minimiz e capital and oper ational\nexpenditur e costs.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. a complete migr ation t o the public cloud",
+      "B. an additional data center",
+      "C. a priv ate cloud",
+      "D. a hybrid cloud"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What is an adv antage of using a public cloud ser vice for the ser vers o ver an on-pr emises network?",
+    "options": [
+      "A. The public cloud is owned b y the public, NO T a priv ate corpor ation",
+      "B. The public cloud is a cr owd-sour cing solution that pr ovides corpor ations with the ability t o enhance the cloud",
+      "C. All public cloud r esour ces can be fr eely accessed b y every member of the public",
+      "D. The public cloud is a shar ed entity wher eby multiple corpor ations each use a por tion of the r esour ces in the cloud"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You plan t o migr ate all the vir tual machines t o an A zure pay-as-y ou-go subscription.\nYou need t o identify which expenditur e model t o use for the planned A zure solution.\nWhich expenditur e model should y ou identify?",
+    "options": ["A. oper ational", "B. elastic", "C. capital", "D. scalable"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The company plans t o reduce the following administr ative responsibilities:\n\u2711 Backing up application data\n\u2711 Replacing failed ser ver har dwar e\n\u2711 Managing physical ser ver security\n\u2711 Updating ser ver oper ating systems\n\u2711 Managing permissions t o shar ed documents\nThe company plans t o migr ate ser vers t o Azure virtual machines.\nYou need t o identify which administr ative responsibilities will be eliminated after the planned migr ation.\nWhich two r esponsibilities should y ou identify? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Replacing failed ser ver har dwar e",
+      "B. Backing up application data",
+      "C. Managing physical ser ver security",
+      "D. Updating ser ver oper ating systems",
+      "E. Managing permissions t o shar ed documents"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Which r esour ce is an example of IaaS?",
+    "options": [
+      "A. an A zure web app",
+      "B. an A zure virtual machine",
+      "C. an A zure logic app",
+      "D. an A zure SQL database"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "virtual machines connect t o each other .\nWhich type of cloud model is this?",
+    "options": ["A. hybrid", "B. private", "C. public"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o migr ate all its data and r esour ces t o Azure.\nThe company 's migr ation plan states that only Platform as a Ser vice (P aaS) solutions must be used in A zure.\nYou need t o deplo y an A zure envir onment that meets the company migr ation plan.\nSolution: Y ou cr eate A zure virtual machines, A zure SQL databases, and A zure Storage accounts.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "company . Each application will ha ve several pr erequisite applications and ser vices installed.\nYou need t o recommend a cloud deplo yment solution for all the applications.\nWhat should y ou recommend?",
+    "options": [
+      "A. Softwar e as a Ser vice (SaaS)",
+      "B. Platform as a Ser vice (P aaS)",
+      "C. Infrastructur e as a Ser vice (laaS)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The company 's migr ation plan states that only Platform as a Ser vice (P aaS) solutions must be used in A zure.\nYou need t o deplo y an A zure envir onment that meets the company 's migr ation plan.\nWhat should y ou cr eate?",
+    "options": [
+      "A. Azure virtual machines, A zure SQL databases, and A zure Storage accounts.",
+      "B. an A zure App Ser vice and A zure virtual machines that ha ve Micr osoft SQL Ser ver installed.",
+      "C. an A zure App Ser vice and A zure SQL databases.",
+      "D. Azure storage accounts and web ser ver in A zure virtual machines."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You plan t o mo ve App1 t o the cloud.\nWhich ser vice model should y ou use?",
+    "options": [
+      "A. platform as a ser vice (P aaS)",
+      "B. infrastructur e as a ser vice (IaaS)",
+      "C. softwar e as a ser vice (SaaS)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "NOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. enables the r apid pr ovisioning of r esour ces",
+      "B. has incr eased administr ative complexity",
+      "C. has the same configur ation options as on-pr emises",
+      "D. shifts capital expenditur es (CAPEX) t o oper ating expenditur es (OPEX)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What should y ou identify?",
+    "options": [
+      "A. a physical ser ver failur e",
+      "B. an A zure region failur e",
+      "C. a storage failur e",
+      "D. an A zure data center failur e"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou plan t o deplo y several Azure virtual machines.\nYou need t o ensur e that the ser vices running on the vir tual machines ar e available if a single data center fails.\nSolution: Y ou deplo y the vir tual machines t o two or mor e resour ce gr oups.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou plan t o deplo y several Azure virtual machines.\nYou need t o ensur e that the ser vices running on the vir tual machines ar e available if a single data center fails.\nSolution: Y ou deplo y the vir tual machines t o a scale set.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Resour ce gr oups pr ovide or ganizations with the ability t o manage the compliance of A zure resour ces acr oss multiple subscriptions.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed",
+      "B. Management gr oups",
+      "C. Azure policies",
+      "D. Azure App Ser vice plans"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The company has se veral depar tments. All the A zure resour ces used b y each depar tment will be managed b y a depar tment administr ator.\nWhat ar e two possible techniques t o segment A zure for the depar tments? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. multiple subscriptions",
+      "B. multiple A zure Activ e Dir ectory (Azure AD) dir ectories",
+      "C. multiple r egions",
+      "D. multiple r esour ce gr oups"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You plan t o implement a solution that enables the client computers on y our on-pr emises network t o communicate t o the A zure virtual machines.\nYou need t o recommend which A zure resour ces must be cr eated for the planned solution.\nWhich two A zure resour ces should y ou include in the r ecommendation? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. a virtual network gatewa y",
+      "B. a load balancer",
+      "C. an application gatewa y",
+      "D. a virtual network",
+      "E. a gatewa y subnet"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "your A zure subscription limits.\nWhat should y ou do t o incr ease the limits?",
+    "options": [
+      "A. Create a ser vice health aler t",
+      "B. Upgr ade y our suppor t plan",
+      "C. Modify an A zure policy",
+      "D. Create a new suppor t request"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "The company 's compliance policy states that a ser ver named FinSer ver must be on a separ ate network segment.\nYou ar e evaluating which A zure ser vices can be used t o meet the compliance policy r equir ements.\nWhich A zure solution should y ou recommend?",
+    "options": [
+      "A. a resour ce gr oup for FinSer ver and another r esour ce gr oup for all the other ser vers",
+      "B. a virtual network for FinSer ver and another vir tual network for all the other ser vers",
+      "C. a VPN for FinSer ver and a vir tual network gatewa y for each other ser ver",
+      "D. one r esour ce gr oup for all the ser vers and a r esour ce lock for FinSer ver"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o create a st orage solution in A zure for the planned mapped driv e.\nWhat should y ou cr eate?",
+    "options": [
+      "A. an A zure SQL database",
+      "B. a virtual machine data disk",
+      "C. a File ser vice in a st orage account",
+      "D. a Blob ser vice in a st orage account"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o star t the planning pr ocess b y exploring A zure.\nWhat should y ou cr eate first?",
+    "options": [
+      "A. a subscription",
+      "B. a resour ce gr oup",
+      "C. a virtual network",
+      "D. a management gr oup"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou plan t o deplo y several Azure virtual machines.\nYou need t o ensur e that the ser vices running on the vir tual machines ar e available if a single data center fails.\nSolution: Y ou deplo y the vir tual machines t o two or mor e scale sets.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Azure Monit or",
+      "B. Azure Ser vice Health",
+      "C. Azure Advisor",
+      "D. Micr osoft Trust Center"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o ensur e that the ser vices running on the vir tual machines r emain a vailable if a single data center fails.\nWhat ar e two possible solutions? Each corr ect answer pr esents a complete solution.",
+    "options": [
+      "A. Deplo y the vir tual machines t o two or mor e availability z ones.",
+      "B. Deplo y the vir tual machines t o two or mor e resour ce gr oups.",
+      "C. Deplo y the vir tual machines t o a scale set.",
+      "D. Deplo y the vir tual machines t o two or mor e regions."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Azure subscriptions",
+      "B. Azure Security Center",
+      "C. Azure Mark etplace",
+      "D. Micr osoft St ore"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Azure subscriptions",
+      "B. Micr osoft Def ender for Cloud",
+      "C. Azure Mark etplace",
+      "D. Micr osoft St ore"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o ensur e that the ser vice will be a vailable if a datacenter fails.\nWhat should y ou use as par t of the vir tual machine deplo yment?",
+    "options": [
+      "A. availability sets",
+      "B. proximity placement gr oups",
+      "C. host gr oups",
+      "D. availability z ones"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You need t o ensur e that administr ators can only cr eate r esour ces in those r egions.\nWhat should y ou use?",
+    "options": [
+      "A. a read-only lock",
+      "B. an A zure policy",
+      "C. a management gr oup",
+      "D. a reservation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Which two ser vices can y ou use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Vir tual Deskt op",
+      "B. Azure virtual machines",
+      "C. Azure Functions",
+      "D. Azure Container Instances",
+      "E. Azure Kubernetes Ser vice (AKS)"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou plan t o deplo y several Azure virtual machines.\nYou need t o ensur e that the ser vices running on the vir tual machines ar e available if a single data center fails.\nSolution: Y ou deplo y the vir tual machines t o two or mor e availability z ones.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "One of the benefits of A zure SQL Data W arehouse is that high a vailability is built int o the platform.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed",
+      "B. automatic scaling",
+      "C. data compr ession",
+      "D. versioning"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou plan t o deplo y several Azure virtual machines.\nYou need t o ensur e that the ser vices running on the vir tual machines ar e available if a single data center fails.\nSolution: Y ou deplo y the vir tual machines t o two or mor e regions.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You need t o recommend a st orage solution for the data.\nWhich two solutions should y ou recommend? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Data Lak e",
+      "B. Azure Cosmos DB",
+      "C. Azure SQL Data W arehouse",
+      "D. Azure SQL Database",
+      "E. Azure Database for P ostgr eSQL"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nAn A zure administr ator plans t o run a P owerShell script that cr eates A zure resour ces.\nYou need t o recommend which computer configur ation t o use t o run the script.\nSolution: Run the script fr om a computer that runs Linux and has the A zure CLI t ools installed.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nAn A zure administr ator plans t o run a P owerShell script that cr eates A zure resour ces.\nYou need t o recommend which computer configur ation t o use t o run the script.\nSolution: Run the script fr om a computer that runs Chr ome OS and uses A zure Cloud Shell.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nAn A zure administr ator plans t o run a P owerShell script that cr eates A zure resour ces.\nYou need t o recommend which computer configur ation t o use t o run the script.\nSolution: Run the script fr om a computer that runs macOS and has P owerShell Cor e 6.0 installed.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure envir onment. Y ou need t o create a new A zure virtual machine fr om a tablet that runs the Andr oid oper ating system.\nSolution: Y ou use Bash in A zure Cloud Shell.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You plan t o migr ate the application t o Azure.\nYou need t o recommend a ser verless computing solution for the application.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. a web app",
+      "B. a ser ver image in A zure Mark etplace",
+      "C. a logic app",
+      "D. an API app"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o recommend which A zure featur e must be used t o provide the best video pla yback experience.\nWhat should y ou recommend?",
+    "options": [
+      "A. an application gatewa y",
+      "B. an A zure Expr essRoute cir cuit",
+      "C. a content deliv ery network (CDN)",
+      "D. an A zure Trafic Manager pr ofile"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o identify which A zure resour ces must be cr eated t o suppor t the planned solution.\nWhich two A zure resour ces should y ou identify? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Data Lak e",
+      "B. Azure Queue st orage",
+      "C. Azure File St orage",
+      "D. Azure IoT  Hub",
+      "E. Azure Notification Hubs"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You need t o manage the settings of the web app fr om an iPhone.\nWhat ar e two A zure management t ools that y ou can use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure CLI",
+      "B. the A zure por tal",
+      "C. Azure Cloud Shell",
+      "D. Windows P owerShell",
+      "E. Azure Storage Explor er"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What should the company use t o build, test, and deplo y predictiv e analytics solutions?",
+    "options": [
+      "A. Azure Logic Apps",
+      "B. Azure Machine Learning Designer",
+      "C. Azure Batch",
+      "D. Azure Cosmos DB"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o create a new A zure virtual machine fr om a tablet that runs the Andr oid oper ating system.\nWhat ar e thr ee possible solutions? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Use Bash in A zure Cloud Shell.",
+      "B. Use P owerShell in A zure Cloud Shell.",
+      "C. Use the P owerApps por tal.",
+      "D. Use the Security & Compliance admin center .",
+      "E. Use the A zure por tal."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "by using A zure\nResour ce Manager templates.\nYou need t o recommend which A zure ser vice will minimiz e the administr ative effor t requir ed to deplo y and r emove the vir tual machines.\nWhat should y ou recommend?",
+    "options": [
+      "A. Azure Reser ved Vir tual Machine ( VM) Instances",
+      "B. Azure De vTest Labs",
+      "C. Azure virtual machine scale sets",
+      "D. Azure Vir tual Deskt op"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure subscription named Subscription1. Y ou sign in t o the A zure por tal and cr eate a r esour ce gr oup named RG1.\nFrom A zure documentation, y ou ha ve the following command that cr eates a vir tual machine named VM1. az vm cr eate --r esour ce-gr oup RG1 --\nname VM1 --image UbuntuL TS --gener ate-ssh-k eys\nYou need t o create VM1 in Subscription1 b y using the command.\nSolution: F rom the A zure por tal, launch A zure Cloud Shell and select P owerShell. Run the command in Cloud Shell.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure subscription named Subscription1. Y ou sign in t o the A zure por tal and cr eate a r esour ce gr oup named RG1.\nFrom A zure documentation, y ou ha ve the following command that cr eates a vir tual machine named VM1. az vm cr eate --r esour ce-gr oup RG1 --\nname VM1 --image UbuntuL TS\n--gener ate-ssh-k eys\nYou need t o create VM1 in Subscription1 b y using the command.\nSolution: F rom a computer that runs Windows 10, install A zure CLI. F rom P owerShell, sign in t o Azure and then run the command.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure subscription named Subscription1. Y ou sign in t o the A zure por tal and cr eate a r esour ce gr oup named RG1.\nFrom A zure documentation, y ou ha ve the following command that cr eates a vir tual machine named VM1. az vm cr eate --r esour ce-gr oup RG1 --\nname VM1 --image UbuntuL TS\n--gener ate-ssh-k eys\nYou need t o create VM1 in Subscription1 b y using the command.\nSolution: F rom a computer that runs Windows 10, install A zure CLI. F rom a command pr ompt, sign in t o Azure and then run the command.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nAn A zure administr ator plans t o run a P owerShell script that cr eates A zure resour ces.\nYou need t o recommend which computer configur ation t o use t o run the script.\nSolution: Run the script fr om a computer that runs Windows 10 and has the A zure PowerShell module installed.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You need t o recommend which computer configur ation t o use t o run the script.\nWhich thr ee computers can run the script? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. a computer that runs macOS and has P owerShell Cor e 6.0 installed.",
+      "B. a computer that runs Windows 10 and has the A zure PowerShell module installed.",
+      "C. a computer that runs Linux and has the A zure PowerShell module installed.",
+      "D. a computer that runs Linux and has the A zure CLI t ools installed.",
+      "E. a computer that runs Chr ome OS and uses A zure Cloud Shell."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure subscription named Subscription1. Y ou sign in t o the A zure por tal and cr eate a r esour ce gr oup named RG1.\nFrom A zure documentation, y ou ha ve the following command that cr eates a vir tual machine named VM1. az vm cr eate --r esour ce-gr oup RG1 --\nname VM1 --image UbuntuL TS --gener ate-ssh-k eys\nYou need t o create VM1 in Subscription1 b y using the command.\nSolution: F rom the A zure por tal, launch A zure Cloud Shell and select Bash. Run the command in Cloud Shell.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Each business unit r equir es 20 diff erent A zure resour ces for daily oper ation. All the business units r equir e the same type of A zure resour ces.\nYou need t o recommend a solution t o aut omate the cr eation of the A zure resour ces.\nWhat should y ou include in the r ecommendations?",
+    "options": [
+      "A. Azure Resour ce Manager templates",
+      "B. virtual machine scale sets",
+      "C. the A zure API Management ser vice",
+      "D. management gr oups"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "machines run Windows\nServer 2016 and 20 of the vir tual machines run Ubuntu Linux.\nYou need t o recommend which A zure ser vice will minimiz e the administr ative effor t requir ed to deplo y and r emove the vir tual machines.\nWhat should y ou recommend?",
+    "options": [
+      "A. Azure Reser ved Vir tual Machines ( VM) Instances",
+      "B. Azure virtual machine scale sets",
+      "C. Azure De vTest Labs",
+      "D. Micr osoft Managed Deskt op"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You install the CLI on a computer .\nYou need t o tell the suppor t engineer which t ools t o use t o run the CLI.\nWhich two t ools should y ou instruct the suppor t engineer t o use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Command Pr ompt",
+      "B. Azure Resour ce Explor er",
+      "C. Windows P owerShell",
+      "D. Windows Def ender Fir ewall",
+      "E. Network and Sharing Center"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure envir onment. Y ou need t o create a new A zure virtual machine fr om a tablet that runs the Andr oid oper ating system.\nSolution: Y ou use P owerShell in A zure Cloud Shell.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure envir onment. Y ou need t o create a new A zure virtual machine fr om a tablet that runs the Andr oid oper ating system.\nSolution: Y ou use the P owerApps por tal.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ha ve an A zure envir onment. Y ou need t o create a new A zure virtual machine fr om a tablet that runs the Andr oid oper ating system.\nSolution: Y ou use the A zure por tal.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which A zure ser vice should y ou use fr om the A zure por tal to view ser vice failur e notifications that can aff ect the a vailability of VM1?",
+    "options": [
+      "A. Azure Ser vice F abric",
+      "B. Azure Monit or",
+      "C. Azure virtual machines",
+      "D. Azure Advisor"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour A zure envir onment contains multiple A zure virtual machines.\nYou need t o ensur e that a vir tual machine named VM1 is accessible fr om the Internet o ver HTTP.\nSolution: Y ou modify an A zure Trafic Manager pr ofile.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o recommend an A zure solution t o limit the types of connections fr om the web ser vers t o the database ser vers.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. network security gr oups (NSGs)",
+      "B. Azure Ser vice Bus",
+      "C. a local network gatewa y",
+      "D. a route filter"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You plan t o encr ypt VM1 b y using A zure Disk Encr yption.\nWhich A zure resour ce must y ou cr eate first?",
+    "options": [
+      "A. an A zure Storage account",
+      "B. an A zure Key Vault",
+      "C. an A zure Information Pr otection policy",
+      "D. an Encr yption k ey"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o aut omate r esponses t o thr eats detected b y Azure Sentinel.\nWhat should y ou use?",
+    "options": [
+      "A. adaptiv e network har dening in A zure Security Center",
+      "B. Azure Ser vice Health",
+      "C. Azure Monit or workbooks",
+      "D. adaptiv e application contr ols in A zure Security Center"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o review y our secur e scor e.\nWhat should y ou use?",
+    "options": [
+      "A. Azure Monit or",
+      "B. Azure Advisor",
+      "C. Help + suppor t",
+      "D. Micr osoft Def ender for Cloud"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Micr osoft Sentinel",
+      "B. Azure Synapse Analytics",
+      "C. Azure AD Connect",
+      "D. Azure Key Vault"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Your manager is concerned that y ou ma y expose administr ative credentials during the deplo yment.\nYou need t o recommend an A zure solution that encr ypts the administr ative credentials during the deplo yment.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. Azure Key Vault",
+      "B. Azure Information Pr otection",
+      "C. Micr osoft Def ender for Cloud",
+      "D. Azure Multi-F actor Authentication (MF A)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "\u2711 Secur es websites fr om attacks\n\u2711 Gener ates r epor ts that contain details of attempted attacks\nWhat should y ou include in the solution?",
+    "options": [
+      "A. Azure Firewall",
+      "B. a network security gr oup (NSG)",
+      "C. Azure Information Pr otection",
+      "D. DDoS pr otection"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You need t o ensur e that a vir tual machine named VM1 is accessible fr om the Internet o ver HTTP.\nWhat ar e two possible solutions? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Modify an A zure Trafic Manager pr ofile",
+      "B. Modify a network security gr oup (NSG)",
+      "C. Modify a DDoS pr otection plan",
+      "D. Modify an A zure firewall"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o limit the amount of inbound tr afic t o all the A zure virtual networks.\nWhat should y ou cr eate?",
+    "options": [
+      "A. one application security gr oup (ASG)",
+      "B. 10 vir tual network gatewa ys",
+      "C. 10 A zure Expr essRoute cir cuits",
+      "D. one A zure firewall"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Azure Key Vault is used t o store secr ets for A zure Activ e Dir ectory (Azure AD) user accounts.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed",
+      "B. Azure Activ e Dir ectory (Azure AD) administr ative accounts",
+      "C. Personally Identifiable Information (PII)",
+      "D. server applications"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Your manager is concerned that y ou ma y expose administr ative credentials during the deplo yment.\nYou need t o recommend an A zure solution that encr ypts the administr ative credentials during the deplo yment.\nWhat should y ou include in the r ecommendation?",
+    "options": [
+      "A. Azure Key Vault",
+      "B. Azure Information Pr otection",
+      "C. Azure Security Center",
+      "D. Azure Multi-F actor Authentication (MF A)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You need t o contr ol the por ts that de vices on the Internet can use t o access the vir tual machines.\nWhat should y ou use?",
+    "options": [
+      "A. a network security gr oup (NSG)",
+      "B. an A zure Activ e Dir ectory (Azure AD) r ole",
+      "C. an A zure Activ e Dir ectory group",
+      "D. an A zure key vault"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour A zure envir onment contains multiple A zure virtual machines.\nYou need t o ensur e that a vir tual machine named VM1 is accessible fr om the Internet o ver HTTP.\nSolution: Y ou modify a network security gr oup (NSG).\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour A zure envir onment contains multiple A zure virtual machines.\nYou need t o ensur e that a vir tual machine named VM1 is accessible fr om the Internet o ver HTTP.\nSolution: Y ou modify a DDoS pr otection plan.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Azure Sentinel",
+      "B. Azure Synapse Analytics",
+      "C. Azure AD Connect",
+      "D. Azure Key Vault"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour A zure envir onment contains multiple A zure virtual machines.\nYou need t o ensur e that a vir tual machine named VM1 is accessible fr om the Internet o ver HTTP.\nSolution: Y ou modify an A zure firewall.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Azure Germany can be used b y legal r esidents of Germany only .\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. no change is needed",
+      "B. only enterprises that ar e register ed in Germany",
+      "C. only enterprises that pur chase their azur e licenses fr om a par tner based in Germany",
+      "D. any user or enterprise that r equir es its data t o reside in Germany"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. a Canadian go vernment contr actor",
+      "B. a European go vernment contr actor",
+      "C. a United States go vernment entity",
+      "D. a United States go vernment contr actor",
+      "E. a European go vernment entity"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "the users ar e prompted aut omatically t o change their passwor d.\nWhich A zure ser vice should y ou use?",
+    "options": [
+      "A. Azure AD Connect Health",
+      "B. Azure AD Privileged Identity Management",
+      "C. Azure Adv anced Threat Pr otection (A TP)",
+      "D. Azure AD Identity Pr otection"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Your company plans t o migr ate all network r esour ces t o Azure and t o decommission the on-pr emises data center .\nYou need t o recommend a solution t o minimiz e the impact on users after the planned migr ation.\nWhat should y ou recommend?",
+    "options": [
+      "A. Implement A zure Multi-F actor Authentication (MF A)",
+      "B. Sync all the Activ e Dir ectory user accounts t o Azure Activ e Dir ectory (Azure AD)",
+      "C. Instruct all users t o change their passwor d",
+      "D. Create a guest user account in A zure Activ e Dir ectory (Azure AD) for each user"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o prevent the cr eation of vir tual machines in RG1. The solution must ensur e that other objects can be cr eated in RG1.\nWhat should y ou use?",
+    "options": [
+      "A. a lock",
+      "B. an A zure role",
+      "C. a tag",
+      "D. an A zure policy"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You need t o ensur e that only users whose de vices ha ve the latest security patches installed can access A zure Activ e Dir ectory (Azure AD)-\nintegr ated applications.\nWhat should y ou implement?",
+    "options": [
+      "A. a conditional access policy",
+      "B. Azure Bastion",
+      "C. Azure Firewall",
+      "D. Azure Policy"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Wher e will y ou find details on the personal data collected b y Micr osoft, how Micr osoft uses the data, and what the data is used for?",
+    "options": [
+      "A. the Data Pr otection Addendum",
+      "B. the Micr osoft Online Ser vices Terms",
+      "C. the Micr osoft Priv acy Statement",
+      "D. Azure Security Center"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o create the A zure resour ce that must be used t o meet the policy r equir ement.\nWhat should y ou cr eate?",
+    "options": [
+      "A. a read-only lock",
+      "B. an A zure policy",
+      "C. a management gr oup",
+      "D. a reservation"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "From A zure Cloud Shell, y ou can tr ack y our company 's regulat ory standar ds and r egulations, such as ISO 27001.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed.` If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed.",
+      "B. the Micr osoft Cloud P artner P ortal",
+      "C. Compliance Manager",
+      "D. the Trust Center"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o identify whether A zure complies with the company 's regional r equir ements.\nWhat should y ou use?",
+    "options": [
+      "A. the K nowledge Center",
+      "B. Azure Mark etplace",
+      "C. the MyApps por tal",
+      "D. the Trust Center"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o pur chase an A zure subscription.\nThe company 's suppor t policy states that the A zure envir onment must pr ovide an option t o access suppor t engineers b y phone or email.\nYou need t o recommend which suppor t plan meets the suppor t policy r equir ement.\nSolution: Recommend a Basic suppor t plan.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o pur chase an A zure subscription.\nThe company 's suppor t policy states that the A zure envir onment must pr ovide an option t o access suppor t engineers b y phone or email.\nYou need t o recommend which suppor t plan meets the suppor t policy r equir ement.\nSolution: Recommend a Standar d suppor t plan.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o pur chase an A zure subscription.\nThe company 's suppor t policy states that the A zure envir onment must pr ovide an option t o access suppor t engineers b y phone or email.\nYou need t o recommend which suppor t plan meets the suppor t policy r equir ement.\nSolution: Recommend a Pr emier suppor t plan.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The company curr ently has a Basic suppor t plan.\nYou need t o recommend a new suppor t plan for the company . The solution must minimiz e costs.\nWhich suppor t plan should y ou recommend?",
+    "options": [
+      "A. Premier",
+      "B. Developer",
+      "C. Professional Dir ect",
+      "D. Standar d"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company plans t o pur chase an A zure subscription.\nThe company 's suppor t policy states that the A zure envir onment must pr ovide an option t o access suppor t engineers b y phone or email.\nYou need t o recommend which suppor t plan meets the suppor t policy r equir ement.\nSolution: Recommend a Pr ofessional Dir ect suppor t plan.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You plan t o deplo y SQL Ser ver on A zure virtual machines.\nWhat should y ou do t o minimiz e licensing costs for the deplo yment?",
+    "options": [
+      "A. Deallocate the vir tual machines during off hours.",
+      "B. Use A zure Hybrid Benefit.",
+      "C. Configur e Azure Cost Management budgets.",
+      "D. Use A zure reservations."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The company plans t o implement an A zure envir onment.\nYou need t o ensur e that each depar tment can use a diff erent pa yment option for the A zure ser vices it consumes.\nWhat should y ou cr eate for each depar tment?",
+    "options": [
+      "A. a reservation",
+      "B. a subscription",
+      "C. a resour ce gr oup",
+      "D. a container instance"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "\u2711 20 user accounts in A zure Activ e Dir ectory (Azure AD)\n\u2711 Five groups in A zure AD\n\u2711 10 public IP addr esses\n\u2711 10 network inter faces\nYou need t o reduce the A zure costs for the company .\nWhich unused r esour ces should y ou remove?",
+    "options": [
+      "A. the network inter faces",
+      "B. the public IP addr esses",
+      "C. the gr oups",
+      "D. the user accounts"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "How should y ou calculate the composite SL A for the application?",
+    "options": [
+      "A. 0.999 * 0.9999 = 0.9989001 = 99.89001%",
+      "B. 0.999 / 0.9999 = 0.9991 = 99.91%",
+      "C. Max(0.999, 0.9999) = 0.9999 = 99.99%",
+      "D. Min(0.999, 0.9999) = 0.999 = 99.9%"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You plan t o migr ate all the vir tual machines t o an A zure pay-as-y ou-go subscription.\nYou need t o identify which expenditur e model t o use for the planned A zure solution.\nWhich expenditur e model should y ou identify?",
+    "options": ["A. scalable", "B. oper ational", "C. elastic", "D. capital"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "utilization of each ofice.\nWhich A zure Resour ce Manager f eatur e should y ou use befor e you gener ate the r epor ts?",
+    "options": ["A. tags", "B. templates", "C. locks", "D. policies"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "If Micr osoft plans t o end suppor t for an A zure ser vice that does NO T have a successor ser vice, Micr osoft will pr ovide notification at least 12\nmonths befor e.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed.",
+      "B. 6 months",
+      "C. 90 da ys",
+      "D. 30 da ys"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company has an A zure subscription that contains the following unused r esour ces:\n\u2711 20 user accounts in A zure Activ e Dir ectory (Azure AD)\n\u2711 Five groups in A zure AD\n\u2711 10 public IP addr esses\n\u2711 10 network inter faces\nYou need t o reduce the A zure costs for the company .\nSolution: Y ou remove the unused network inter faces.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company has an A zure subscription that contains the following unused r esour ces:\n\u2711 20 user accounts in A zure Activ e Dir ectory (Azure AD)\nFive groups in A zure AD -\n\u2711 10 public IP addr esses\n\u2711 10 network inter faces\nYou need t o reduce the A zure costs for the company .\nSolution: Y ou remove the unused public IP addr esses.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company has an A zure subscription that contains the following unused r esour ces:\n\u2711 20 user accounts in A zure Activ e Dir ectory (Azure AD)\n\u2711 Five groups in A zure AD\n\u2711 10 public IP addr esses\n\u2711 10 network inter faces\nYou need t o reduce the A zure costs for the company .\nSolution: Y ou remove the unused user accounts.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "A suppor t plan solution that giv es you best pr actice information, health status and notifications, and 24/7 access t o billing information at the\nlowest possible cost is a Standar d suppor t plan.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed",
+      "B. Developer",
+      "C. Basic",
+      "D. Premier"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You can cr eate an A zure suppor t request fr om suppor t.micr osoft.com.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed.` If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed.",
+      "B. the A zure por tal",
+      "C. the K nowledge Center",
+      "D. the Security & Compliance admin center"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "might meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYour company has an A zure subscription that contains the following unused r esour ces:\n\u2711 20 user accounts in A zure Activ e Dir ectory (Azure AD)\n\u2711 Five groups in A zure AD\n\u2711 10 public IP addr esses\n\u2711 10 network inter faces\nYou need t o reduce the A zure costs for the company .\nSolution: Y ou remove the unused gr oups.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "The A zure Standar d suppor t plan is the lowest cost option t o receiv e 24x7 access t o suppor t engineers b y phone.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed`. If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change is needed",
+      "B. Developer",
+      "C. Basic",
+      "D. Professional Dir ect"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. Azure Monit or",
+      "B. Azure Ser vice Health",
+      "C. Application Insights in A zure Monit or",
+      "D. Azure Advisor"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What should y ou use?",
+    "options": [
+      "A. the A zure por tal",
+      "B. Azure Command-Line Inter face (CLI)",
+      "C. Azure PowerShell",
+      "D. an A zure Resour ce Manager (ARM) template"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "You need t o manage the settings of the web app fr om an iPhone.\nWhat ar e two A zure management t ools that y ou can use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Windows P owerShell",
+      "B. Azure Cloud Shell",
+      "C. the A zure por tal",
+      "D. Azure Storage Explor er"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "You need t o run queries t o compar e the e vent details collected fr om all the vir tual machines.\nWhich two t ools should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Ser vice Health",
+      "B. Azure Ser vice Bus",
+      "C. Azure Monit or",
+      "D. Azure Advisor",
+      "E. Log Analytics"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "You need t o identify which fact ors aff ect the costs of a r esour ce.\nWhich thr ee fact ors should y ou identify? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. the v olume of outbound data",
+      "B. the v olume of inbound data",
+      "C. the ser vice tier",
+      "D. the A zure region",
+      "E. the type of pr ocessed data"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "You need t o identify which depar tment is r esponsible for the cost of each r esour ce.\nWhat should y ou use?",
+    "options": ["A. budgets", "B. alerts", "C. tags"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What should y ou implement t o manage the ser vers b y using the A zure por tal?",
+    "options": [
+      "A. Azure Kubernetes Ser vice (AKS)",
+      "B. Azure Arc",
+      "C. Dock er",
+      "D. role-based access contr ol (RBA C)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "You need t o identify the amount of time it tak es for web pages t o load in a user 's browser .\nWhat should y ou use?",
+    "options": [
+      "A. Azure Monit or aler ts",
+      "B. Application Insights in A zure Monit or",
+      "C. Log Analytics",
+      "D. Azure Network W atcher"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "NOTE: Each corr ect answer is wor th one point.",
+    "options": [
+      "A. Azure status",
+      "B. Application Insights",
+      "C. Azure Advisor",
+      "D. Log Analytics",
+      "E. Azure Ser vice Health"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "You plan t o deplo y new r esour ces for each business unit.\nYou need t o ensur e that the new r esour ces ar e deplo yed by using a r epeatable and r eliable method that applies the same configur ations t o each\nresour ce.\nWhat should y ou use?",
+    "options": [
+      "A. Azure Policy",
+      "B. Azure Arc",
+      "C. a resour ce gr oup",
+      "D. Azure Resour ce Manager (ARM) templates"
+    ],
+    "correctAnswer": 3
+  }
+]

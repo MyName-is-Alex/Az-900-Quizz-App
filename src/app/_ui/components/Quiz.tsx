@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { quizQuestions } from "@/ui/content/content";
+import { quizQuestionsType } from "@/ui/content/content";
 import { Button } from "@/ui/components/Button";
 import { OptionList } from "./OptionList";
 import { formatTime } from "../utils/formatTime";
@@ -14,6 +15,18 @@ import {
 } from "../utils/playSound";
 
 const TIME_LIMIT = 120; // 1 minute per question
+const numberOfQuestions = 40;
+function getTestQuestions() {
+  const questions: quizQuestionsType[] = [];
+  for (let i = 0; i < numberOfQuestions; i++) {
+    const questionIndex = Math.floor(Math.random() * quizQuestions.length);
+    questions.push(quizQuestions[questionIndex]);
+    quizQuestions.splice(questionIndex, 1);
+  }
+
+  return questions;
+}
+const randomQuizQuestions = getTestQuestions();
 
 export const Quiz = () => {
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -81,7 +94,7 @@ export const Quiz = () => {
     setSelectedAnswerIndex(-1);
 
     // Check if quiz finished
-    if (activeQuestion + 1 >= quizQuestions.length) {
+    if (activeQuestion + 1 >= randomQuizQuestions.length) {
       console.log("Quiz finished!");
       playQuizEnd();
       setQuizFinished(true);
@@ -102,7 +115,7 @@ export const Quiz = () => {
     setSelectedAnswerIndex(answerIndex);
 
     // Check if answer is correct
-    const correctAnswer = quizQuestions[activeQuestion].correctAnswer;
+    const correctAnswer = randomQuizQuestions[activeQuestion].correctAnswer;
     const selectedAnswer = answerIndex;
 
     if (correctAnswer === selectedAnswer) {
@@ -129,11 +142,13 @@ export const Quiz = () => {
     }
   };
 
-  const { question, options } = quizQuestions[activeQuestion];
-  const numberOfQuestions = quizQuestions.length;
+  const { question, options } = randomQuizQuestions[activeQuestion];
+  const numberOfQuestions = randomQuizQuestions.length;
 
   if (quizFinished) {
-    return <Result results={results} totalQuestions={quizQuestions.length} />;
+    return (
+      <Result results={results} totalQuestions={randomQuizQuestions.length} />
+    );
   }
 
   return (
@@ -194,7 +209,7 @@ export const Quiz = () => {
         </div>
 
         <OptionList
-          activeQuestion={quizQuestions[activeQuestion]}
+          activeQuestion={randomQuizQuestions[activeQuestion]}
           options={options}
           selectedAnswerIndex={selectedAnswerIndex}
           onAnswerSelected={handleSelectAnswer}

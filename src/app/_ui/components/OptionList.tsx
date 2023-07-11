@@ -28,9 +28,7 @@ export const OptionList = ({
   isCorrectAnswer,
   activeQuestion,
 }: OptionListProps) => {
-  const correctAnswerIndex = options.findIndex(
-    (option) => option === activeQuestion.correctAnswer
-  );
+  const correctAnswerIndex = activeQuestion.correctAnswer;
 
   console.log({
     correctAnswerIndex,

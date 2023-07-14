@@ -1,0 +1,1205 @@
+[
+  {
+    "question": "Topic 1 Question #1 You ha ve two Hyper-V hosts named Host1 and Host2. Host1 has an A zure virtual machine named VM1 that was deplo yed by using a cust om A zure\nResour ce\nManager template.\nYou need t o mo ve VM1 t o Host2.\nWhat should y ou do?",
+    "options": [
+      "A. From the Update management blade, click Enable.",
+      "B. From the Ov erview blade, mo ve VM1 t o a diff erent subscription.",
+      "C. From the Redeplo y blade, click Redeplo y.",
+      "D. From the Pr ofile blade, modify the usage location."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 1 Question #3 Your company has an A zure Kubernetes Ser vice (AKS) cluster that y ou manage fr om an A zure AD-joined de vice. The cluster is located in a\nresour ce gr oup.\nDevelopers ha ve created an application named MyApp. MyApp was packaged int o a container image.\nYou need t o deplo y the Y AML manif est file for the application.\nSolution: Y ou install the A zure CLI on the de vice and run the kubectl apply `\"f my app.y aml command.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 1 Question #4 Your company has an A zure Kubernetes Ser vice (AKS) cluster that y ou manage fr om an A zure AD-joined de vice. The cluster is located in a\nresour ce gr oup.\nDevelopers ha ve created an application named MyApp. MyApp was packaged int o a container image.\nYou need t o deplo y the Y AML manif est file for the application.\nSolution: Y ou install the dock er client on the de vice and run the dock er run -it micr osoft/azur e-cli:0.10.17 command.\nDoes this meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #5 Your company has a web app named W ebApp1.\nYou use the W ebJobs SDK t o design a trigger ed App Ser vice back ground task that aut omatically inv okes a function in the code e very time new\ndata is r eceiv ed in a queue.\nYou ar e preparing t o configur e the ser vice pr ocesses a queue data item.\nWhich of the following is the ser vice y ou should use?",
+    "options": ["A. Logic Apps", "B. WebJobs", "C. Flow", "D. Functions"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #6 Your company has an A zure subscription.\nYou need t o deplo y a number of A zure virtual machines t o the subscription b y using A zure Resour ce Manager (ARM) templates. The vir tual\nmachines will be included in a single a vailability set.\nYou need t o ensur e that the ARM template allows for as many vir tual machines as possible t o remain accessible in the e vent of fabric failur e or\nmaintenance.\nWhich of the following is the v alue that y ou should configur e for the platformF aultDomainCount pr oper ty?",
+    "options": ["A. 10", "B. 30", "C. Min V alue", "D. Max V alue"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 1 Question #7 Your company has an A zure subscription.\nYou need t o deplo y a number of A zure virtual machines t o the subscription b y using A zure Resour ce Manager (ARM) templates. The vir tual\nmachines will be included in a single a vailability set.\nYou need t o ensur e that the ARM template allows for as many vir tual machines as possible t o remain accessible in the e vent of fabric failur e or\nmaintenance.\nWhich of the following is the v alue that y ou should configur e for the platformUpdateDomainCount pr oper ty?",
+    "options": ["A. 10", "B. 20", "C. 30", "D. 40"],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 1 Question #9 This question r equir es that y ou evaluate the underlined text t o determine if it is corr ect.\nYou company has an on-pr emises deplo yment of MongoDB, and an A zure Cosmos DB account that mak es use of the MongoDB API.\nYou need t o devise a str ategy t o migr ate MongoDB t o the A zure Cosmos DB account.\nYou include the Data Management Gatewa y tool in y our migr ation str ategy .\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change r equir ed.` If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change r equir ed",
+      "B. mongor estore",
+      "C. Azure Storage Explor er",
+      "D. AzCop y"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #10 You ar e developing an e-Commer ce W eb App.\nYou want t o use A zure Key Vault t o ensur e that sign-ins t o the e-Commer ce W eb App ar e secur ed by using A zure App Ser vice authentication and\nAzure Activ e\nDirectory (AAD).\nWhat should y ou do on the e-Commer ce W eb App?",
+    "options": [
+      "A. Run the az k eyvault secr et command.",
+      "B. Enable A zure AD Connect.",
+      "C. Enable Managed Ser vice Identity (MSI).",
+      "D. Create an A zure AD ser vice principal."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 1 Question #11 This question r equir es that y ou evaluate the underlined text t o determine if it is corr ect.\nYour A zure Activ e Dir ectory Azure (Azure AD) tenant has an A zure subscription link ed to it.\nYour de veloper has cr eated a mobile application that obtains A zure AD access t okens using the O Auth 2 implicit gr ant type.\nThe mobile application must be r egister ed in A zure AD .\nYou requir e a redirect URI fr om the de veloper for r egistr ation purposes.\nInstructions: Re view the underlined text. If it mak es the statement corr ect, select `No change is needed.` If the statement is incorr ect, select the\nanswer choice that mak es the statement corr ect.",
+    "options": [
+      "A. No change r equir ed.",
+      "B. a secr et",
+      "C. a login hint",
+      "D. a client ID"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 1 Question #12 You ar e creating an A zure key vault using P owerShell. Objects deleted fr om the k ey vault must be k ept for a set period of 90 da ys.\nWhich two of the following par ameters must be used in conjunction t o meet the r equir ement? (Choose two.)",
+    "options": [
+      "A. EnabledF orDeplo yment",
+      "B. EnablePur gePr otection",
+      "C. EnabledF orTemplateDeplo yment",
+      "D. EnableSoftDelete"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 1 Question #14 You manage an A zure SQL database that allows for A zure AD authentication.\nYou need t o mak e sur e that database de velopers can connect t o the SQL database via Micr osoft SQL Ser ver Management Studio (SSMS). Y ou also\nneed t o mak e sur e the de velopers use their on-pr emises Activ e Dir ectory account for authentication. Y our str ategy should allow for authentication\nprompts t o be k ept t o a minimum.\nWhich of the following should y ou implement?",
+    "options": [
+      "A. Azure AD t oken.",
+      "B. Azure Multi-F actor authentication.",
+      "C. Activ e Dir ectory integr ated authentication.",
+      "D. OATH softwar e tokens."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 1 Question #15 You ar e developing an application t o transf er data between on-pr emises file ser vers and A zure Blob st orage. The application st ores keys, secr ets,\nand cer tificates in A zure Key Vault and mak es use of the A zure Key Vault APIs.\nYou want t o configur e the application t o allow r ecovery of an accidental deletion of the k ey vault or k ey vault objects for 90 da ys after deletion.\nWhat should y ou do?",
+    "options": [
+      "A. Run the Add-A zKeyVaultK ey cmdlet.",
+      "B. Run the az k eyvault update --enable-soft-delete true --enable-pur ge-pr otection true CLI.",
+      "C. Implement vir tual network ser vice endpoints for A zure Key Vault.",
+      "D. Run the az k eyvault update --enable-soft-delete false CLI."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #17 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e configuring a web app that deliv ers str eaming video t o users. The application mak es use of continuous integr ation and deplo yment.\nYou need t o ensur e that the application is highly a vailable and that the users' str eaming experience is constant. Y ou also want t o configur e the\napplication t o store data in a geogr aphic location that is near est t o the user .\nSolution: Y ou include the use of A zure Redis Cache in y our design.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #18 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e configuring a web app that deliv ers str eaming video t o users. The application mak es use of continuous integr ation and deplo yment.\nYou need t o ensur e that the application is highly a vailable and that the users' str eaming experience is constant. Y ou also want t o configur e the\napplication t o store data in a geogr aphic location that is near est t o the user .\nSolution: Y ou include the use of an A zure Content Deliv ery Network (CDN) in y our design.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 1 Question #19 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e configuring a web app that deliv ers str eaming video t o users. The application mak es use of continuous integr ation and deplo yment.\nYou need t o ensur e that the application is highly a vailable and that the users' str eaming experience is constant. Y ou also want t o configur e the\napplication t o store data in a geogr aphic location that is near est t o the user .\nSolution: Y ou include the use of a St orage Ar ea Network (SAN) in y our design.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #20 You de velop a W eb App on a tier D1 app ser vice plan.\nYou notice that page load times incr ease during periods of peak tr afic.\nYou want t o implement aut omatic scaling when CPU load is abo ve 80 per cent. Y our solution must minimiz e costs.\nWhat should y ou do first?",
+    "options": [
+      "A. Enable aut oscaling on the W eb App.",
+      "B. Switch t o the Pr emium App Ser vice tier plan.",
+      "C. Switch t o the Standar d App Ser vice tier plan.",
+      "D. Switch t o the A zure App Ser vices consumption plan."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 1 Question #21 Your company 's Azure subscription includes an A zure Log Analytics workspace.\nYour company has a hundr ed on-pr emises ser vers that run either Windows Ser ver 2012 R2 or Windows Ser ver 2016, and is link ed to the A zure Log\nAnalytics workspace. The A zure Log Analytics workspace is set up t o gather per formance counters associated with security fr om these link ed\nservers.\nYou must configur e aler ts based on the information gather ed by the A zure Log Analytics workspace.\nYou ha ve to mak e sur e that aler t rules allow for dimensions, and that aler t creation time should be k ept t o a minimum. F urthermor e, a single aler t\nnotification must be cr eated when the aler t is cr eated and when the aler t is r esolv ed.\nYou need t o mak e use of the necessar y signal type when cr eating the aler t rules.\nWhich of the following is the option y ou should use?",
+    "options": [
+      "A. The Activity log signal type.",
+      "B. The Application Log signal type.",
+      "C. The Metric signal type.",
+      "D. The A udit Log signal type."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 1 Question #22 You ar e developing a .NE T Core MV C application that allows cust omers t o resear ch independent holida y accommodation pr oviders.\nYou want t o implement A zure Sear ch to allow the application t o sear ch the index b y using v arious criteria t o locate documents r elated t o\naccommodation.\nYou want the application t o allow cust omers t o sear ch the index b y using r egular expr essions.\nWhat should y ou do?",
+    "options": [
+      "A. Configur e the Sear chMode pr oper ty of the Sear chParameters class.",
+      "B. Configur e the Quer yType pr oper ty of the Sear chParameters class.",
+      "C. Configur e the F acets pr oper ty of the Sear chParameters class.",
+      "D. Configur e the Filter pr oper ty of the Sear chParameters class."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #23 You ar e a de veloper at y our company .\nYou need t o update the definitions for an existing Logic App.\nWhat should y ou use?",
+    "options": [
+      "A. the Enterprise Integr ation P ack (EIP)",
+      "B. the Logic App Code View",
+      "C. the API Connections",
+      "D. the Logic Apps Designer"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #24 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e developing a solution for a public facing API.\nThe API back end is hosted in an A zure App Ser vice instance. Y ou ha ve implemented a RESTful ser vice for the API back end.\nYou must configur e back-end authentication for the API Management ser vice instance.\nSolution: Y ou configur e Basic gatewa y credentials for the A zure resour ce.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #25 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e developing a solution for a public facing API.\nThe API back end is hosted in an A zure App Ser vice instance. Y ou ha ve implemented a RESTful ser vice for the API back end.\nYou must configur e back-end authentication for the API Management ser vice instance.\nSolution: Y ou configur e Client cer t gatewa y credentials for the H TTP(s) endpoint.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #26 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e developing a solution for a public facing API.\nThe API back end is hosted in an A zure App Ser vice instance. Y ou ha ve implemented a RESTful ser vice for the API back end.\nYou must configur e back-end authentication for the API Management ser vice instance.\nSolution: Y ou configur e Basic gatewa y credentials for the H TTP(s) endpoint.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 1 Question #27 Note: The question is included in a number of questions that depicts the identical set-up. Howe ver, every question has a distinctiv e result.\nEstablish if the solution satisfies the r equir ements.\nYou ar e developing a solution for a public facing API.\nThe API back end is hosted in an A zure App Ser vice instance. Y ou ha ve implemented a RESTful ser vice for the API back end.\nYou must configur e back-end authentication for the API Management ser vice instance.\nSolution: Y ou configur e Client cer t gatewa y credentials for the A zure resour ce.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 1 Question #28 You ar e developing a .NE T Core MV C application that allows cust omers t o resear ch independent holida y accommodation pr oviders.\nYou want t o implement A zure Sear ch to allow the application t o sear ch the index b y using v arious criteria t o locate documents r elated t o\naccommodation v enues.\nYou want the application t o list holida y accommodation v enues that fall within a specific price r ange and ar e within a specified distance t o an\nairpor t.\nWhat should y ou do?",
+    "options": [
+      "A. Configur e the Sear chMode pr oper ty of the Sear chParameters class.",
+      "B. Configur e the Quer yType pr oper ty of the Sear chParameters class.",
+      "C. Configur e the F acets pr oper ty of the Sear chParameters class.",
+      "D. Configur e the Filter pr oper ty of the Sear chParameters class."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 1 Question #29 You ar e a de veloper at y our company .\nYou need t o edit the workfiows for an existing Logic App.\nWhat should y ou use?",
+    "options": [
+      "A. the Enterprise Integr ation P ack (EIP)",
+      "B. the Logic App Code View",
+      "C. the API Connections",
+      "D. the Logic Apps Designer"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 1 Question #31 You ar e developing an application that applies a set of go vernance policies for internal and external ser vices, as well as for applications.\nYou de velop a stateful ASP .NET Core 2.1 web application named P olicyApp and deplo y it to an A zure App Ser vice W eb App. The P olicyApp r eacts\nto events fr om\nAzure Event Grid and per forms policy actions based on those e vents.\nYou ha ve the following r equir ements:\n\u2711 Authentication e vents must be used t o monit or users when the y sign in and sign out.\n\u2711 All authentication e vents must be pr ocessed b y PolicyApp.\n\u2711 Sign outs must be pr ocessed as fast as possible.\nWhat should y ou do?",
+    "options": [
+      "A. Create a new A zure Event Grid subscription for all authentication e vents. Use the subscription t o process sign-out e vents.",
+      "B. Create a separ ate A zure Event Grid handler for sign-in and sign-out e vents.",
+      "C. Create separ ate A zure Event Grid t opics and subscriptions for sign-in and sign-out e vents.",
+      "D. Add a subject pr efix t o sign-out e vents. Cr eate an A zure Event Grid subscription. Configur e the subscription t o use the subjectBeginsWith",
+      "filter ."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 2 Question #4 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop a softwar e as a ser vice (SaaS) off ering t o manage phot ographs. Users upload phot os to a web ser vice which then st ores the phot os\nin Azure\nStorage Blob st orage. The st orage account type is Gener al-purpose V2.\nWhen phot os ar e uploaded, the y must be pr ocessed t o produce and sa ve a mobile-friendly v ersion of the image. The pr ocess t o produce a mobile-\nfriendly v ersion of the image must star t in less than one minute.\nYou need t o design the pr ocess that star ts the phot o processing.\nSolution: Trigger the phot o processing fr om Blob st orage e vents.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #5 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop and deplo y an A zure App Ser vice API app t o a Windows-hosted deplo yment slot named De velopment. Y ou cr eate additional\ndeplo yment slots named Testing and Pr oduction. Y ou enable aut o swap on the Pr oduction deplo yment slot.\nYou need t o ensur e that scripts run and r esour ces ar e available befor e a swap oper ation occurs.\nSolution: Update the web.config file t o include the applicationInitialization configur ation element. Specify cust om initialization actions t o run the\nscripts.\nDoes the solution meet the goal?",
+    "options": ["A. No", "B. Yes"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #6 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop and deplo y an A zure App Ser vice API app t o a Windows-hosted deplo yment slot named De velopment. Y ou cr eate additional\ndeplo yment slots named Testing and Pr oduction. Y ou enable aut o swap on the Pr oduction deplo yment slot.\nYou need t o ensur e that scripts run and r esour ces ar e available befor e a swap oper ation occurs.\nSolution: Enable aut o swap for the Testing slot. Deplo y the app t o the Testing slot.\nDoes the solution meet the goal?",
+    "options": ["A. No", "B. Yes"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #7 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop and deplo y an A zure App Ser vice API app t o a Windows-hosted deplo yment slot named De velopment. Y ou cr eate additional\ndeplo yment slots named Testing and Pr oduction. Y ou enable aut o swap on the Pr oduction deplo yment slot.\nYou need t o ensur e that scripts run and r esour ces ar e available befor e a swap oper ation occurs.\nSolution: Disable aut o swap. Update the app with a method named statuscheck t o run the scripts. Re-enable aut o swap and deplo y the app t o the\nProduction slot.\nDoes the solution meet the goal?",
+    "options": ["A. No", "B. Yes"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #8 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop a softwar e as a ser vice (SaaS) off ering t o manage phot ographs. Users upload phot os to a web ser vice which then st ores the phot os\nin Azure\nStorage Blob st orage. The st orage account type is Gener al-purpose V2.\nWhen phot os ar e uploaded, the y must be pr ocessed t o produce and sa ve a mobile-friendly v ersion of the image. The pr ocess t o produce a mobile-\nfriendly v ersion of the image must star t in less than one minute.\nYou need t o design the pr ocess that star ts the phot o processing.\nSolution: Conv ert the A zure Storage account t o a BlockBlobSt orage st orage account.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #13 You de velop a website. Y ou plan t o host the website in A zure. You expect the website t o experience high tr afic v olumes after it is published.\nYou must ensur e that the website r emains a vailable and r esponsiv e while minimizing cost.\nYou need t o deplo y the website.\nWhat should y ou do?",
+    "options": [
+      "A. Deplo y the website t o a vir tual machine. Configur e the vir tual machine t o aut omatically scale when the CPU load is high.",
+      "B. Deplo y the website t o an App Ser vice that uses the Shar ed ser vice tier . Configur e the App Ser vice plan t o aut omatically scale when the CPU",
+      "load is high.",
+      "C. Deplo y the website t o a vir tual machine. Configur e a Scale Set t o incr ease the vir tual machine instance count when the CPU load is high.",
+      "D. Deplo y the website t o an App Ser vice that uses the Standar d ser vice tier . Configur e the App Ser vice plan t o aut omatically scale when the",
+      "CPU load is high."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 2 Question #16 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop an H TTP trigger ed A zure Function app t o process A zure Storage blob data. The app is trigger ed using an output binding on the blob.\nThe app continues t o time out after four minutes. The app must pr ocess the blob data.\nYou need t o ensur e the app does not time out and pr ocesses the blob data.\nSolution: Use the Dur able F unction async pattern t o process the blob data.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #17 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop an H TTP trigger ed A zure Function app t o process A zure Storage blob data. The app is trigger ed using an output binding on the blob.\nThe app continues t o time out after four minutes. The app must pr ocess the blob data.\nYou need t o ensur e the app does not time out and pr ocesses the blob data.\nSolution: P ass the H TTP trigger pa yload int o an A zure Ser vice Bus queue t o be pr ocessed b y a queue trigger function and r eturn an immediate\nHTTP success r esponse.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #18 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop an H TTP trigger ed A zure Function app t o process A zure Storage blob data. The app is trigger ed using an output binding on the blob.\nThe app continues t o time out after four minutes. The app must pr ocess the blob data.\nYou need t o ensur e the app does not time out and pr ocesses the blob data.\nSolution: Configur e the app t o use an App Ser vice hosting plan and enable the Alwa ys On setting.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #19 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop a softwar e as a ser vice (SaaS) off ering t o manage phot ographs. Users upload phot os to a web ser vice which then st ores the phot os\nin Azure\nStorage Blob st orage. The st orage account type is Gener al-purpose V2.\nWhen phot os ar e uploaded, the y must be pr ocessed t o produce and sa ve a mobile-friendly v ersion of the image. The pr ocess t o produce a mobile-\nfriendly v ersion of the image must star t in less than one minute.\nYou need t o design the pr ocess that star ts the phot o processing.\nSolution: Mo ve phot o processing t o an A zure Function trigger ed fr om the blob upload.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #20 You ar e developing an application that uses A zure Blob st orage.\nThe application must r ead the tr ansaction logs of all the changes that occur t o the blobs and the blob metadata in the st orage account for\nauditing purposes. The changes must be in the or der in which the y occurr ed, include only cr eate, update, delete, and cop y oper ations and be\nretained for compliance r easons.\nYou need t o process the tr ansaction logs asynchr onously .\nWhat should y ou do?",
+    "options": [
+      "A. Process all A zure Blob st orage e vents b y using A zure Event Grid with a subscriber A zure Function app.",
+      "B. Enable the change f eed on the st orage account and pr ocess all changes for a vailable e vents.",
+      "C. Process all A zure Storage Analytics logs for successful blob e vents.",
+      "D. Use the A zure Monit or HTTP Data Collect or API and scan the r equest body for successful blob e vents."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #22 You ar e developing an A zure Function App that pr ocesses images that ar e uploaded t o an A zure Blob container .\nImages must be pr ocessed as quickly as possible after the y are uploaded, and the solution must minimiz e latency . You cr eate code t o process\nimages when the\nFunction App is trigger ed.\nYou need t o configur e the F unction App.\nWhat should y ou do?",
+    "options": [
+      "A. Use an App Ser vice plan. Configur e the F unction App t o use an A zure Blob St orage input trigger .",
+      "B. Use a Consumption plan. Configur e the F unction App t o use an A zure Blob St orage trigger .",
+      "C. Use a Consumption plan. Configur e the F unction App t o use a Timer trigger .",
+      "D. Use an App Ser vice plan. Configur e the F unction App t o use an A zure Blob St orage trigger .",
+      "E. Use a Consumption plan. Configur e the F unction App t o use an A zure Blob St orage input trigger ."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #27 You ar e preparing t o deplo y a website t o an A zure Web App fr om a GitHub r eposit ory. The website includes static content gener ated b y a script.\nYou plan t o use the A zure Web App continuous deplo yment f eatur e.\nYou need t o run the static gener ation script befor e the website star ts ser ving tr afic.\nWhat ar e two possible wa ys to achie ve this goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Add the path t o the static content gener ation t ool t o WEBSI TE_RUN_FROM_P ACKAGE setting in the host.json file.",
+      "B. Add a Pr eBuild tar get in the websites cspr oj pr oject file that runs the static content gener ation script.",
+      "C. Create a file named run.cmd in the folder /run that calls a script which gener ates the static content and deplo ys the website.",
+      "D. Create a file named .deplo yment in the r oot of the r eposit ory that calls a script which gener ates the static content and deplo ys the website."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 2 Question #32 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop a softwar e as a ser vice (SaaS) off ering t o manage phot ographs. Users upload phot os to a web ser vice which then st ores the phot os\nin Azure\nStorage Blob st orage. The st orage account type is Gener al-purpose V2.\nWhen phot os ar e uploaded, the y must be pr ocessed t o produce and sa ve a mobile-friendly v ersion of the image. The pr ocess t o produce a mobile-\nfriendly v ersion of the image must star t in less than one minute.\nYou need t o design the pr ocess that star ts the phot o processing.\nSolution: Cr eate an A zure Function app that uses the Consumption hosting model and that is trigger ed fr om the blob upload.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #33 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop and deplo y an A zure App Ser vice API app t o a Windows-hosted deplo yment slot named De velopment. Y ou cr eate additional\ndeplo yment slots named Testing and Pr oduction. Y ou enable aut o swap on the Pr oduction deplo yment slot.\nYou need t o ensur e that scripts run and r esour ces ar e available befor e a swap oper ation occurs.\nSolution: Update the app with a method named statuscheck t o run the scripts. Update the app settings for the app. Set the\nWEBSI TE_SW AP_W ARMUP_PING_P ATH and WEBSI TE_SW AP_W ARMUP_PING_ST ATUSES with a path t o the new method and appr opriate r esponse\ncodes.\nDoes the solution meet the goal?",
+    "options": ["A. No", "B. Yes"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #37 You ar e developing a web app that is pr otected b y Azure Web Application Fir ewall ( WAF). All tr afic t o the web app is r outed thr ough an A zure\nApplication\nGatewa y instance that is used b y multiple web apps. The web app addr ess is cont oso.azur ewebsites.net.\nAll tr afic must be secur ed with SSL. The A zure Application Gatewa y instance is used b y multiple web apps.\nYou need t o configur e the A zure Application Gatewa y for the web app.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. In the A zure Application Gatewa y's HTTP setting, enable the Use for App ser vice setting.",
+      "B. Conv ert the web app t o run in an A zure App ser vice envir onment (ASE).",
+      "C. Add an authentication cer tificate for cont oso.azur ewebsites.net t o the A zure Application Gatewa y.",
+      "D. In the A zure Application Gatewa y's HTTP setting, set the v alue of the Ov erride back end path option t o cont oso22.azur ewebsites.net."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 2 Question #38 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop a softwar e as a ser vice (SaaS) off ering t o manage phot ographs. Users upload phot os to a web ser vice which then st ores the phot os\nin Azure\nStorage Blob st orage. The st orage account type is Gener al-purpose V2.\nWhen phot os ar e uploaded, the y must be pr ocessed t o produce and sa ve a mobile-friendly v ersion of the image. The pr ocess t o produce a mobile-\nfriendly v ersion of the image must star t in less than one minute.\nYou need t o design the pr ocess that star ts the phot o processing.\nSolution: Use the A zure Blob St orage change f eed t o trigger phot o processing.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #39 You ar e developing a web application that runs as an A zure Web App. The web application st ores data in A zure SQL Database and st ores files in\nan A zure\nStorage account. The web application mak es H TTP requests t o external ser vices as par t of normal oper ations.\nThe web application is instrumented with Application Insights. The external ser vices ar e OpenT elemetr y compliant.\nYou need t o ensur e that the cust omer ID of the signed in user is associated with all oper ations thr oughout the o verall system.\nWhat should y ou do?",
+    "options": [
+      "A. Add the cust omer ID for the signed in user t o the Corr elationContext in the web application",
+      "B. On the curr ent SpanContext, set the TraceId t o the cust omer ID for the signed in user",
+      "C. Set the header Ocp-Apim-T race t o the cust omer ID for the signed in user",
+      "D. Create a new SpanContext with the TraceFlags v alue set t o the cust omer ID for the signed in user"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #42 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop an H TTP trigger ed A zure Function app t o process A zure Storage blob data. The app is trigger ed using an output binding on the blob.\nThe app continues t o time out after four minutes. The app must pr ocess the blob data.\nYou need t o ensur e the app does not time out and pr ocesses the blob data.\nSolution: Update the functionTimeout pr oper ty of the host.json pr oject file t o 10 minutes.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #44 You ar e developing an A zure Dur able F unction t o manage an online or dering pr ocess.\nThe pr ocess must call an external API t o gather pr oduct discount information.\nYou need t o implement the A zure Dur able F unction.\nWhich A zure Dur able F unction types should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": ["A. Orchestr ator", "B. Entity", "C. Client", "D. Activity"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 2 Question #46 You de velop A zure Dur able F unctions t o manage v ehicle loans.\nThe loan pr ocess includes multiple actions that must be run in a specified or der. One of the actions includes a cust omer cr edit check pr ocess,\nwhich ma y requir e multiple da ys to process.\nYou need t o implement A zure Dur able F unctions for the loan pr ocess.\nWhich A zure Dur able F unctions type should y ou use?",
+    "options": ["A. orchestr ator", "B. client", "C. entity", "D. activity"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 2 Question #48 You de velop A zure Web Apps for a commer cial diving company . Regulations r equir e that all div ers fill out a health questionnair e every 15 da ys\nafter each diving job star ts.\nYou need t o configur e the A zure Web Apps so that the instance count scales up when div ers ar e filling out the questionnair e and scales down after\nthey are complete.\nYou need t o configur e aut oscaling.\nWhat ar e two possible aut o scaling configur ations t o achie ve this goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Recurr ence pr ofile",
+      "B. CPU usage-based aut oscaling",
+      "C. Fixed date pr ofile",
+      "D. Predictiv e aut oscaling"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 2 Question #52 You ar e developing se veral micr oser vices t o run on A zure Container Apps. External H TTP ingr ess tr afic has been enabled for the micr oser vices.\nThe micr oser vices must be deplo yed to the same vir tual network and write logs t o the same Log Analytics workspace.\nYou need t o deplo y the micr oser vices.\nWhat should y ou do?",
+    "options": [
+      "A. Enable single r evision mode.",
+      "B. Use a separ ate envir onment for each container .",
+      "C. Use a priv ate container r egistr y image and single image for all containers.",
+      "D. Use a single envir onment for all containers.",
+      "E. Enable multiple r evision mode."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 3 Question #2 You ar e building a website that uses A zure Blob st orage for data st orage. Y ou configur e Azure Blob st orage lif ecycle to mo ve all blobs t o the\narchive tier after 30 da ys.\nCust omers ha ve requested a ser vice-le vel agr eement (SL A) for viewing data older than 30 da ys.\nYou need t o document the minimum SL A for data r ecovery.\nWhich SL A should y ou use?",
+    "options": [
+      "A. at least two da ys",
+      "B. between one and 15 hours",
+      "C. at least one da y",
+      "D. between z ero and 60 minutes"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 3 Question #7 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure solution t o collect point-of-sale (POS) de vice data fr om 2,000 st ores located thr oughout the world. A single de vice\ncan pr oduce\n2 megab ytes (MB) of data e very 24 hours. Each st ore location has one t o five devices that send data.\nYou must st ore the de vice data in A zure Blob st orage. De vice data must be corr elated based on a de vice identifier . Additional st ores ar e expected\nto open in the futur e.\nYou need t o implement a solution t o receiv e the de vice data.\nSolution: Pr ovision an A zure Event Grid. Configur e the machine identifier as the par tition k ey and enable captur e.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 3 Question #8 You de velop A zure solutions.\nA .NE T application needs t o receiv e a message each time an A zure virtual machine finishes pr ocessing data. The messages must NO T persist\nafter being pr ocessed b y the r eceiving application.\nYou need t o implement the .NE T object that will r eceiv e the messages.\nWhich object should y ou use?",
+    "options": [
+      "A. QueueClient",
+      "B. SubscriptionClient",
+      "C. TopicClient",
+      "D. CloudQueueClient"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 3 Question #10 You de velop A zure solutions.\nYou must connect t o a No-SQL globally-distributed database b y using the .NE T API.\nYou need t o create an object t o configur e and ex ecute r equests in the database.\nWhich code segment should y ou use?",
+    "options": [
+      "A. new Container(EndpointUri, Primar yKey);",
+      "B. new Database(EndpointUri, Primar yKey);",
+      "C. new CosmosClient(EndpointUri, Primar yKey);"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 3 Question #11 You ha ve an existing A zure storage account that st ores lar ge volumes of data acr oss multiple containers.\nYou need t o cop y all data fr om the existing st orage account t o a new st orage account. The cop y process must meet the following r equir ements:\n\u2711 Automate data mo vement.\n\u2711 Minimiz e user input r equir ed to per form the oper ation.\n\u2711 Ensur e that the data mo vement pr ocess is r ecoverable.\nWhat should y ou use?",
+    "options": [
+      "A. AzCop y",
+      "B. Azure Storage Explor er",
+      "C. Azure por tal",
+      "D. .NET Storage Client Libr ary"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 3 Question #18 You ar e developing an A zure Cosmos DB solution b y using the A zure Cosmos DB SQL API. The data includes millions of documents. Each\ndocument ma y contain hundr eds of pr oper ties.\nThe pr oper ties of the documents do not contain distinct v alues for par titioning. A zure Cosmos DB must scale individual containers in the\ndatabase t o meet the per formance needs of the application b y spr eading the workload e venly acr oss all par titions o ver time.\nYou need t o select a par tition k ey.\nWhich two par tition k eys can y ou use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. a single pr oper ty value that does not appear fr equently in the documents",
+      "B. a value containing the collection name",
+      "C. a single pr oper ty value that appears fr equently in the documents",
+      "D. a concatenation of multiple pr oper ty values with a r andom sufix appended",
+      "E. a hash sufix appended t o a pr oper ty value"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Topic 3 Question #23 You de velop and deplo y a web application t o Azure App Ser vice. The application accesses data st ored in an A zure Storage account. The account\ncontains se veral containers with se veral blobs with lar ge amounts of data. Y ou deplo y all A zure resour ces t o a single r egion.\nYou need t o mo ve the A zure Storage account t o the new r egion. Y ou must cop y all data t o the new r egion.\nWhat should y ou do first?",
+    "options": [
+      "A. Expor t the A zure Storage account A zure Resour ce Manager template",
+      "B. Initiate a st orage account failo ver",
+      "C. Configur e object r eplication for all blobs",
+      "D. Use the A zCop y command line t ool",
+      "E. Create a new A zure Storage account in the curr ent r egion",
+      "F. Create a new subscription in the curr ent r egion"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 3 Question #27 An or ganization deplo ys Azure Cosmos DB.\nYou need t o ensur e that the index is updated as items ar e created, updated, or deleted.\nWhat should y ou do?",
+    "options": [
+      "A. Set the indexing mode t o Lazy .",
+      "B. Set the v alue of the aut omatic pr oper ty of the indexing policy t o False.",
+      "C. Set the v alue of the EnableScanInQuer y option t o True.",
+      "D. Set the indexing mode t o Consistent."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 3 Question #28 You ar e developing a .Net web application that st ores data in A zure Cosmos DB. The application must use the Cor e API and allow millions of\nreads and writes.\nThe A zure Cosmos DB account has been cr eated with multiple write r egions enabled. The application has been deplo yed to the East US2 and\nCentr al US r egions.\nYou need t o update the application t o suppor t multi-r egion writes.\nWhat ar e two possible wa ys to achie ve this goal? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Update the ConnectionP olicy class for the Cosmos client and populate the Pr eferredLocations pr oper ty based on the geo-pr oximity of the",
+      "application.",
+      "B. Update A zure Cosmos DB t o use the Str ong consistency le vel. Add index ed pr oper ties t o the container t o indicate r egion.",
+      "C. Update the ConnectionP olicy class for the Cosmos client and set the UseMultipleW riteLocations pr oper ty to true.",
+      "D. Create and deplo y a cust om confiict r esolution policy .",
+      "E. Update A zure Cosmos DB t o use the Session consistency le vel. Send the SessionT oken pr oper ty value fr om the F eedResponse object of the",
+      "write action t o the end-user b y using a cookie."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 3 Question #36 You ar e developing an application t o store business-critical data in A zure Blob st orage.\nThe application must meet the following r equir ements:\n\u2022 Data must not be modified or deleted for a user-specified inter val.\n\u2022 Data must be pr otected fr om o verwrites and deletes.\n\u2022 Data must be written once and allowed t o be r ead many times.\nYou need t o protect the data in the A zure Blob st orage account.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Configur e a time-based r etention policy for the st orage account.",
+      "B. Create an account shar ed-access signatur e (SAS).",
+      "C. Enable the blob change f eed for the st orage account.",
+      "D. Enable v ersion-le vel immutability suppor t for the st orage account.",
+      "E. Enable point-in-time r estore for containers in the st orage account.",
+      "F. Create a ser vice shar ed-access signatur e (SAS)."
+    ]
+  },
+  {
+    "question": "Topic 3 Question #37 You ar e updating an application that st ores data on A zure and uses A zure Cosmos DB for st orage. The application st ores data in multiple\ndocuments associated with a single username.\nThe application r equir es the ability t o update multiple documents for a username in a single A CID oper ation.\nYou need t o configur e Azure Cosmos DB.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Create a collection shar ded on username t o store documents.",
+      "B. Configur e Azure Cosmos DB t o use the Gr emlin API.",
+      "C. Create an unshar ded collection t o store documents.",
+      "D. Configur e Azure Cosmos DB t o use the MongoDB API."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 3 Question #38 You de velop A zure solutions.\nYou must connect t o a No-SQL globally-distributed database b y using the .NE T API.\nYou need t o create an object t o configur e and ex ecute r equests in the database.\nWhich code segment should y ou use?",
+    "options": [
+      "A. database_name = 'MyDatabase '",
+      "database = client.cr eate_database_if_not_exists(id=database_name)",
+      "B. client = CosmosClient(endpoint, k ey)",
+      "C. container_name = 'MyContainer '",
+      "container = database.cr eate_container_if_not_exists(",
+      "id=container_name, par tition_k ey=PartitionK ey(path=\"/lastName \"), off er_thr oughput=400 )"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 3 Question #39 You de velop a web application that pr ovides access t o legal documents that ar e stored on A zure Blob St orage with v ersion-le vel immutability\npolicies. Documents ar e protected with both time-based policies and legal hold policies. All time-based r etention policies ha ve the\nAllowPr otectedAppendW rites pr oper ty enabled.\nYou ha ve a requir ement t o prevent the user fr om attempting t o per form oper ations that would fail only when a legal hold is in eff ect and when all\nother policies ar e expir ed.\nYou need t o meet the r equir ement.\nWhich two oper ations should y ou pr event? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. adding data t o documents",
+      "B. deleting documents",
+      "C. creating documents",
+      "D. overwriting existing documents"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 3 Question #44 You ar e developing an inv entory tracking solution. The solution includes an A zure Function app containing multiple functions trigger ed by Azure\nCosmos DB. Y ou plan t o deplo y the solution t o multiple A zure regions.\nThe solution must meet the following r equir ements:\n\u2022 Item r esults fr om A zure Cosmos DS must r eturn the most r ecent committed v ersion of an item.\n\u2022 Items written t o Azure Cosmos DB must pr ovide or dering guar antees.\nYou need t o configur e the consistency le vel for the A zure Cosmos DB deplo yments.\nWhich consistency le vel should y ou use?",
+    "options": [
+      "A. consistent pr efix",
+      "B. eventual",
+      "C. bounded staleness",
+      "D. strong",
+      "E. session"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 4 Question #1 You ar e developing a Ja va application that uses Cassandr a to store key and v alue data. Y ou plan t o use a new A zure Cosmos DB r esour ce and the\nCassandr a\nAPI in the application. Y ou cr eate an A zure Activ e Dir ectory (Azure AD) gr oup named Cosmos DB Cr eators t o enable pr ovisioning of A zure Cosmos\naccounts, databases, and containers.\nThe A zure AD gr oup must not be able t o access the k eys that ar e requir ed to access the data.\nYou need t o restrict access t o the A zure AD gr oup.\nWhich r ole-based access contr ol should y ou use?",
+    "options": [
+      "A. DocumentDB Accounts Contribut or",
+      "B. Cosmos Backup Oper ator",
+      "C. Cosmos DB Oper ator",
+      "D. Cosmos DB Account Reader"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #2 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a website that will run as an A zure Web App. Users will authenticate b y using their A zure Activ e Dir ectory (Azure AD)\ncredentials.\nYou plan t o assign users one of the following permission le vels for the website: admin, normal, and r eader . A user 's Azure AD gr oup membership\nmust be used t o determine the permission le vel.\nYou need t o configur e authorization.\nSolution: Configur e the A zure Web App for the website t o allow only authenticated r equests and r equir e Azure AD log on.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #3 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a website that will run as an A zure Web App. Users will authenticate b y using their A zure Activ e Dir ectory (Azure AD)\ncredentials.\nYou plan t o assign users one of the following permission le vels for the website: admin, normal, and r eader . A user 's Azure AD gr oup membership\nmust be used t o determine the permission le vel.\nYou need t o configur e authorization.\nSolution:\n\u2711 Create a new A zure AD application. In the application 's manif est, set v alue of the gr oupMembershipClaims option t o All.\n\u2711 In the website, use the v alue of the gr oups claim fr om the JW T for the user t o determine permissions.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #4 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a website that will run as an A zure Web App. Users will authenticate b y using their A zure Activ e Dir ectory (Azure AD)\ncredentials.\nYou plan t o assign users one of the following permission le vels for the website: admin, normal, and r eader . A user 's Azure AD gr oup membership\nmust be used t o determine the permission le vel.\nYou need t o configur e authorization.\nSolution:\n\u2711 Create a new A zure AD application. In the application 's manif est, define application r oles that match the r equir ed permission le vels for the\napplication.\n\u2711 Assign the appr opriate A zure AD gr oup t o each r ole. In the website, use the v alue of the r oles claim fr om the JW T for the user t o determine\npermissions.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #6 You pr ovide an A zure API Management managed web ser vice t o clients. The back-end web ser vice implements H TTP Strict Transpor t Security\n(HST S).\nEvery request t o the back end ser vice must include a v alid H TTP authorization header .\nYou need t o configur e the A zure API Management instance with an authentication policy .\nWhich two policies can y ou use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Basic A uthentication",
+      "B. Digest A uthentication",
+      "C. Certificate A uthentication",
+      "D. OAuth Client Cr edential Gr ant"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 4 Question #9 You ha ve an application that includes an A zure Web app and se veral Azure Function apps. Application secr ets including connection strings and\ncertificates ar e stored in A zure Key Vault.\nSecr ets must not be st ored in the application or application runtime envir onment. Changes t o Azure Activ e Dir ectory (Azure AD) must be\nminimiz ed.\nYou need t o design the appr oach t o loading application secr ets.\nWhat should y ou do?",
+    "options": [
+      "A. Create a single user-assigned Managed Identity with permission t o access K ey Vault and configur e each App Ser vice t o use that Managed",
+      "Identity .",
+      "B. Create a single A zure AD Ser vice Principal with permission t o access K ey Vault and use a client secr et from within the App Ser vices t o",
+      "access K ey Vault.",
+      "C. Create a system assigned Managed Identity in each App Ser vice with permission t o access K ey Vault.",
+      "D. Create an A zure AD Ser vice Principal with P ermissions t o access K ey Vault for each App Ser vice and use a cer tificate fr om within the App",
+      "Services t o access K ey Vault."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #10 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a medical r ecor ds document management website. The website is used t o store scanned copies of patient intak e forms.\nIf the st ored intak e forms ar e downloaded fr om st orage b y a thir d par ty, the contents of the forms must not be compr omised.\nYou need t o store the intak e forms accor ding t o the r equir ements.\nSolution:\n1. Cr eate an A zure Key Vault k ey named sk ey.\n2. Encr ypt the intak e forms using the public k ey por tion of sk ey.\n3. St ore the encr ypted data in A zure Blob st orage.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #11 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a medical r ecor ds document management website. The website is used t o store scanned copies of patient intak e forms.\nIf the st ored intak e forms ar e downloaded fr om st orage b y a thir d par ty, the contents of the forms must not be compr omised.\nYou need t o store the intak e forms accor ding t o the r equir ements.\nSolution:\n1. Cr eate an A zure Cosmos DB database with St orage Ser vice Encr yption enabled.\n2. St ore the intak e forms in the A zure Cosmos DB database.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #12 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a medical r ecor ds document management website. The website is used t o store scanned copies of patient intak e forms.\nIf the st ored intak e forms ar e downloaded fr om st orage b y a thir d par ty, the contents of the forms must not be compr omised.\nYou need t o store the intak e forms accor ding t o the r equir ements.\nSolution: St ore the intak e forms as A zure Key Vault secr ets.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #14 Your company is de veloping an A zure API hosted in A zure.\nYou need t o implement authentication for the A zure API t o access other A zure resour ces. Y ou ha ve the following r equir ements:\n\u2711 All API calls must be authenticated.\n\u2711 Callers t o the API must not send cr edentials t o the API.\nWhich authentication mechanism should y ou use?",
+    "options": [
+      "A. Basic",
+      "B. Anonymous",
+      "C. Managed identity",
+      "D. Client cer tificate"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #16 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop A zure solutions.\nYou must gr ant a vir tual machine ( VM) access t o specific r esour ce gr oups in A zure Resour ce Manager .\nYou need t o obtain an A zure Resour ce Manager access t oken.\nSolution: Use an X.509 cer tificate t o authenticate the VM with A zure Resour ce Manager .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #17 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop A zure solutions.\nYou must gr ant a vir tual machine ( VM) access t o specific r esour ce gr oups in A zure Resour ce Manager .\nYou need t o obtain an A zure Resour ce Manager access t oken.\nSolution: Use the Reader r ole-based access contr ol (RBA C) role to authenticate the VM with A zure Resour ce Manager .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #19 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing a website that will run as an A zure Web App. Users will authenticate b y using their A zure Activ e Dir ectory (Azure AD)\ncredentials.\nYou plan t o assign users one of the following permission le vels for the website: admin, normal, and r eader . A user 's Azure AD gr oup membership\nmust be used t o determine the permission le vel.\nYou need t o configur e authorization.\nSolution:\n\u2711 Configur e and use Integr ated Windows A uthentication in the website.\n\u2711 In the website, quer y Micr osoft Gr aph API t o load the gr oups t o which the user is a member .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #20 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou de velop A zure solutions.\nYou must gr ant a vir tual machine ( VM) access t o specific r esour ce gr oups in A zure Resour ce Manager .\nYou need t o obtain an A zure Resour ce Manager access t oken.\nSolution: Run the Inv oke-RestMethod cmdlet t o mak e a request t o the local managed identity for A zure resour ces endpoint.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #22 You de velop an app that allows users t o upload phot os and videos t o Azure storage. The app uses a st orage REST  API call t o upload the media t o\na blob st orage account named Account1. Y ou ha ve blob st orage containers named Container1 and Container2.\nUploading of videos occurs on an irr egular basis.\nYou need t o cop y specific blobs fr om Container1 t o Container2 when a new video is uploaded.\nWhat should y ou do?",
+    "options": [
+      "A. Copy blobs t o Container2 b y using the Put Blob oper ation of the Blob Ser vice REST  API",
+      "B. Create an E vent Grid t opic that uses the Star t-AzureStorageBlobCop y cmdlet",
+      "C. Use A zCop y with the Snapshot switch t o cop y blobs t o Container2",
+      "D. Download the blob t o a vir tual machine and then upload the blob t o Container2"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #23 You ar e developing an ASP .NET Core website that uses A zure FrontDoor . The website is used t o build cust om weather data sets for r esear chers.\nData sets ar e downloaded b y users as Comma Separ ated V alue (CSV ) files. The data is r efreshed e very 10 hours.\nSpecific files must be pur ged fr om the F rontDoor cache based upon Response Header v alues.\nYou need t o pur ge individual assets fr om the F ront Door cache.\nWhich type of cache pur ge should y ou use?",
+    "options": ["A. single path", "B. wildcar d", "C. root domain"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #24 Your company is de veloping an A zure API.\nYou need t o implement authentication for the A zure API. Y ou ha ve the following r equir ements:\nAll API calls must be secur e.\n\u2711 Callers t o the API must not send cr edentials t o the API.\nWhich authentication mechanism should y ou use?",
+    "options": [
+      "A. Basic",
+      "B. Anonymous",
+      "C. Managed identity",
+      "D. Client cer tificate"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #25 You ar e a de veloper for a SaaS company that off ers many web ser vices.\nAll web ser vices for the company must meet the following r equir ements:\n\u2711 Use API Management t o access the ser vices\n\u2711 Use OpenID Connect for authentication\n\u2711 Prevent anonymous usage\nA recent security audit found that se veral web ser vices can be called without any authentication.\nWhich API Management policy should y ou implement?",
+    "options": [
+      "A. jsonp",
+      "B. authentication-cer tificate",
+      "C. check-header",
+      "D. validate-jwt"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 4 Question #28 You ar e developing an A zure App Ser vice REST  API.\nThe API must be called b y an A zure App Ser vice web app. The API must r etrie ve and update user pr ofile information st ored in A zure Activ e\nDirectory (Azure AD).\nYou need t o configur e the API t o mak e the updates.\nWhich two t ools should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Micr osoft Gr aph API",
+      "B. Micr osoft A uthentication Libr ary (MSAL)",
+      "C. Azure API Management",
+      "D. Micr osoft A zure Security Center",
+      "E. Micr osoft A zure Key Vault SDK"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #29 You de velop a REST  API. Y ou implement a user delegation SAS t oken to communicate with A zure Blob st orage.\nThe t oken is compr omised.\nYou need t o revoke the t oken.\nWhat ar e two possible wa ys to achie ve this goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Revoke the delegation k ey.",
+      "B. Delete the st ored access policy .",
+      "C. Regener ate the account k ey.",
+      "D. Remo ve the r ole assignment for the security principle."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #31 You de velop and deplo y an A zure Logic app that calls an A zure Function app. The A zure Function app includes an OpenAPI (Swagger) definition\nand uses an\nAzure Blob st orage account. All r esour ces ar e secur ed by using A zure Activ e Dir ectory (Azure AD).\nThe A zure Logic app must secur ely access the A zure Blob st orage account. A zure AD r esour ces must r emain if the A zure Logic app is deleted.\nYou need t o secur e the A zure Logic app.\nWhat should y ou do?",
+    "options": [
+      "A. Create a user-assigned managed identity and assign r ole-based access contr ols.",
+      "B. Create an A zure AD cust om r ole and assign the r ole to the A zure Blob st orage account.",
+      "C. Create an A zure Key Vault and issue a client cer tificate.",
+      "D. Create a system-assigned managed identity and issue a client cer tificate.",
+      "E. Create an A zure AD cust om r ole and assign r ole-based access contr ols."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #33 You ar e developing a solution that will use a multi-par titioned A zure Cosmos DB database. Y ou plan t o use the latest A zure Cosmos DB SDK for\ndevelopment.\nThe solution must meet the following r equir ements:\n\u2711 Send inser t and update oper ations t o an A zure Blob st orage account.\n\u2711 Process changes t o all par titions immediately .\n\u2711 Allow par allelization of change pr ocessing.\nYou need t o process the A zure Cosmos DB oper ations.\nWhat ar e two possible wa ys to achie ve this goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Create an A zure App Ser vice API and implement the change f eed estimat or of the SDK. Scale the API b y using multiple A zure App Ser vice",
+      "instances.",
+      "B. Create a back ground job in an A zure Kubernetes Ser vice and implement the change f eed f eatur e of the SDK.",
+      "C. Create an A zure Function t o use a trigger for A zure Cosmos DB. Configur e the trigger t o connect t o the container .",
+      "D. Create an A zure Function that uses a F eedIter ator object that pr ocesses the change f eed b y using the pull model on the container . Use a",
+      "FeedRange object t o par alleliz e the pr ocessing of the change f eed acr oss multiple functions."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #37 You deplo y an A zure App Ser vice web app. Y ou cr eate an app r egistr ation for the app in A zure Activ e Dir ectory (Azure AD) and Twitter .\nThe app must authenticate users and must use SSL for all communications. The app must use Twitter as the identity pr ovider .\nYou need t o validate the A zure AD r equest in the app code.\nWhat should y ou validate?",
+    "options": [
+      "A. ID token header",
+      "B. ID token signatur e",
+      "C. HTTP response code",
+      "D. Tenant ID"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #38 A de velopment team is cr eating a new REST  API. The API will st ore data in A zure Blob st orage. Y ou plan t o deplo y the API t o Azure App Ser vice.\nDevelopers must access the A zure Blob st orage account t o develop the API for the next two months. The A zure Blob st orage account must not be\naccessible b y the de velopers after the two-month time period.\nYou need t o grant de velopers access t o the A zure Blob st orage account.\nWhat should y ou do?",
+    "options": [
+      "A. Gener ate a shar ed access signatur e (SAS) for the A zure Blob st orage account and pr ovide the SAS t o all de velopers.",
+      "B. Create and apply a new lif ecycle management policy t o include a last accessed date v alue. Apply the policy t o the A zure Blob st orage",
+      "account.",
+      "C. Provide all de velopers with the access k ey for the A zure Blob st orage account. Update the API t o include the Coor dinated Univ ersal Time",
+      "(UTC) timestamp for the r equest header .",
+      "D. Grant all de velopers access t o the A zure Blob st orage account b y assigning r ole-based access contr ol (RBA C) roles."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #40 You ha ve a new A zure subscription. Y ou ar e developing an internal website for emplo yees t o view sensitiv e data. The website uses A zure Activ e\nDirectory (Azure\nAD) for authentication.\nYou need t o implement multifact or authentication for the website.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Configur e the website t o use A zure AD B2C.",
+      "B. In Azure AD , create a new conditional access policy .",
+      "C. Upgr ade t o Azure AD Pr emium.",
+      "D. In Azure AD , enable application pr oxy.",
+      "E. In Azure AD conditional access, enable the baseline policy ."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #44 You manage a data pr ocessing application that r eceiv es requests fr om an A zure Storage queue.\nYou need t o manage access t o the queue. Y ou ha ve the following r equir ements:\n\u2711 Provide other applications access t o the A zure queue.\n\u2711 Ensur e that y ou can r evoke access t o the queue without ha ving t o regener ate the st orage account k eys.\n\u2711 Specify access at the queue le vel and not at the st orage account le vel.\nWhich type of shar ed access signatur e (SAS) should y ou use?",
+    "options": [
+      "A. Service SAS with a st ored access policy",
+      "B. Account SAS",
+      "C. User Delegation SAS",
+      "D. Service SAS with ad hoc SAS"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #46 You ar e building a web application that uses the Micr osoft identity platform for user authentication.\nYou ar e implementing user identification for the web application.\nYou need t o retrie ve a claim t o uniquely identify a user .\nWhich claim type should y ou use?",
+    "options": ["A. aud", "B. nonce", "C. oid", "D. idp"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #47 You ar e developing an A zure Function that calls external APIs b y providing an access t oken for the API. The access t oken is st ored in a secr et\nnamed t oken in an\nAzure Key Vault named myk eyvault.\nYou need t o ensur e the A zure Function can access t o the t oken. Which v alue should y ou st ore in the A zure Function App configur ation?",
+    "options": [
+      "A. KeyVault:myk eyvault;Secr et:token",
+      "B. App:Settings:Secr et:myk eyvault:t oken",
+      "C. AZUREKV CONNSTR_ https:/ /myk eyveult.v ault.ezur e.net/secr ets/t oken/",
+      "D. @Micr osoft.K eyVault(Secr etUri=https:/ /myk eyvault.v ault.azur e.net/secr ets/t oken/)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 4 Question #48 A company maintains multiple web and mobile applications. Each application uses cust om in-house identity pr oviders as well as social identity\nproviders.\nYou need t o implement single sign-on (SSO) for all the applications.\nWhat should y ou do?",
+    "options": [
+      "A. Use A zure Activ e Dir ectory B2C (A zure AD B2C ) with cust om policies.",
+      "B. Use A zure Activ e Dir ectory B2B (A zure AD B2B) and enable external collabor ation.",
+      "C. Use A zure Activ e Dir ectory B2C (A zure AD B2C ) with user fiows.",
+      "D. Use A zure Activ e Dir ectory B2B (A zure AD B2B)."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #49 You de velop a P ython application for image r endering that uses GPU r esour ces t o optimiz e rendering pr ocesses. Y ou deplo y the application t o an\nAzure\nContainer Instances (A CI) Linux container .\nThe application r equir es a secr et value t o be passed when the container is star ted. The v alue must only be accessed fr om within the container .\nYou need t o pass the secr et value.\nWhat ar e two possible wa ys to achie ve this goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Create an envir onment v ariable Set the secur eValue pr oper ty to the secr et value.",
+      "B. Add the secr et value t o the container image. Use a managed identity .",
+      "C. Add the secr et value t o the application code Set the container star tup command.",
+      "D. Add the secr et value t o an A zure Blob st orage account. Gener ate a SAS t oken.",
+      "E. Mount a secr et volume containing the secr et value in a secr ets file."
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Topic 4 Question #50 You ar e developing a user por tal for a company .\nYou need t o create a r epor t for the por tal that lists information about emplo yees who ar e subject matter exper ts for a specific t opic. Y ou must\nensur e that administr ators ha ve full contr ol and consent o ver the data.\nWhich technology should y ou use?",
+    "options": [
+      "A. Micr osoft Gr aph data connect",
+      "B. Micr osoft Gr aph API",
+      "C. Micr osoft Gr aph connect ors"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 4 Question #55 You ar e developing a web application that uses the Micr osoft identity platform for user and r esour ce authentication. The web application calls\nseveral REST  APIs.\nA REST  API call must r ead the user \u2019s calendar . The web application r equir es permission t o send an email as the user .\nYou need t o authoriz e the web application and the API.\nWhich par ameter should y ou use?",
+    "options": [
+      "A. tenant",
+      "B. code_challenge",
+      "C. state",
+      "D. client_id",
+      "E. scope"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Topic 4 Question #58 You de velop and deplo y an A zure App Ser vice web app named App1. Y ou cr eate a new A zure Key Vault named V ault1. Y ou impor t several API\nkeys, passwor ds, cer tificates, and cr yptographic k eys int o Vault1.\nYou need t o grant App1 access t o Vault1 and aut omatically r otate cr edentials. Cr edentials must not be st ored in code.\nWhat should y ou do?",
+    "options": [
+      "A. Enable App Ser vice authentication for Appl. Assign a cust om RBA C role to Vault1.",
+      "B. Add a TLS/SSL binding t o App1.",
+      "C. Upload a self-signed client cer tificate t o Vault1. Update App1 t o use the client cer tificate.",
+      "D. Assign a managed identity t o App1."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 4 Question #59 You ar e developing a Ja va application t o be deplo yed in A zure. The application st ores sensitiv e data in A zure Cosmos DB.\nYou need t o configur e Alwa ys Encr ypted t o encr ypt the sensitiv e data inside the application.\nWhat should y ou do first?",
+    "options": [
+      "A. Create a new container t o include an encr yption policy with the JSON pr oper ties t o be encr ypted.",
+      "B. Create a cust omer-managed k ey (CMK) and st ore the k ey in a new A zure Key Vault instance.",
+      "C. Create a data encr yption k ey (DEK) b y using the A zure Cosmos DB SDK and st ore the k ey in A zure Cosmos DB.",
+      "D. Create an A zure AD managed identity and assign the identity t o a new A zure Key Vault instance."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 4 Question #63 You ar e developing se veral micr oser vices t o deplo y to a new A zure Kubernetes Ser vice cluster . The micr oser vices manage data st ored in A zure\nCosmos DB and A zure Blob st orage. The data is secur ed by using cust omer-managed k eys st ored in A zure Key Vault.\nYou must aut omate k ey rotation for all A zure Key Vault k eys and allow for manual k ey rotation. K eys must r otate e very thr ee months. Notifications\nof expiring k eys must be sent befor e key expir y.\nYou need t o configur e key rotation and enable k ey expir y notifications.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Create and configur e a new A zure Event Grid instance.",
+      "B. Configur e Azure Key Vault aler ts.",
+      "C. Create and assign an A zure Key Vault access policy .",
+      "D. Create and configur e a k ey rotation policy during k ey creation."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 4 Question #64 You ar e developing a web application that uses the Micr osoft identity platform t o authenticate users and r esour ces. The web application calls\nseveral REST  APIs.\nThe APIs r equir e an access t oken fr om the Micr osoft identity platform.\nYou need t o request a t oken.\nWhich thr ee pr oper ties should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Redir ect URI/URL",
+      "B. Application ID",
+      "C. Application name",
+      "D. Application secr et",
+      "E. Suppor ted account type"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #2 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution.\nDetermine whether the solution meets the stated goals.\nYou ar e developing and deplo ying se veral ASP .NET web applications t o Azure App Ser vice. Y ou plan t o save session state information and H TML\noutput.\nYou must use a st orage mechanism with the following r equir ements:\n\u2711 Shar e session state acr oss all ASP .NET web applications.\n\u2711 Suppor t contr olled, concurr ent access t o the same session state data for multiple r eaders and a single writer .\n\u2711 Save full H TTP responses for concurr ent r equests.\nYou need t o store the information.\nProposed Solution: Enable Application Request Routing (ARR).\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 5 Question #3 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution.\nDetermine whether the solution meets the stated goals.\nYou ar e developing and deplo ying se veral ASP .NET web applications t o Azure App Ser vice. Y ou plan t o save session state information and H TML\noutput.\nYou must use a st orage mechanism with the following r equir ements:\n\u2711 Shar e session state acr oss all ASP .NET web applications.\n\u2711 Suppor t contr olled, concurr ent access t o the same session state data for multiple r eaders and a single writer .\n\u2711 Save full H TTP responses for concurr ent r equests.\nYou need t o store the information.\nProposed Solution: Deplo y and configur e an A zure Database for P ostgr eSQL. Update the web applications.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 5 Question #7 You de velop a gatewa y solution for a public facing news API. The news API back end is implemented as a RESTful ser vice and uses an OpenAPI\nspecification.\nYou need t o ensur e that y ou can access the news API b y using an A zure API Management ser vice instance.\nWhich A zure PowerShell command should y ou run?",
+    "options": [
+      "A. Impor t-AzureRmApiManagementApi -Context $ApiMgmtContext -SpecificationF ormat \"Swagger \" -SpecificationP ath $SwaggerP ath -P ath",
+      "$Path",
+      "B. New-A zureRmApiManagementBack end -Context $ApiMgmtContext -Url $Url -Pr otocol http",
+      "C. New-A zureRmApiManagement -Resour ceGr oupName $Resour ceGr oup -Name $Name \u05d2\"\u20acLocation $Location -Or ganization $Or g -",
+      "AdminEmail $AdminEmail",
+      "D. New-A zureRmApiManagementBack endPr oxy -Url $ApiUrl"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #8 You ar e creating a hazar d notification system that has a single signaling ser ver which triggers audio and visual alarms t o star t and st op.\nYou implement A zure Ser vice Bus t o publish alarms. Each alarm contr oller uses A zure Ser vice Bus t o receiv e alarm signals as par t of a\ntransaction. Alarm e vents must be r ecor ded for audit purposes. Each tr ansaction r ecor d must include information about the alarm type that was\nactiv ated.\nYou need t o implement a r eply tr ail auditing solution.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Assign the v alue of the hazar d message SessionID pr oper ty to the ReplyT oSessionId pr oper ty.",
+      "B. Assign the v alue of the hazar d message MessageId pr oper ty to the De vileryCount pr oper ty.",
+      "C. Assign the v alue of the hazar d message SessionID pr oper ty to the SequenceNumber pr oper ty.",
+      "D. Assign the v alue of the hazar d message MessageId pr oper ty to the Corr elationId pr oper ty.",
+      "E. Assign the v alue of the hazar d message SequenceNumber pr oper ty to the Deliv eryCount pr oper ty.",
+      "F. Assign the v alue of the hazar d message MessageId pr oper ty to the SequenceNumber pr oper ty."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #9 You ar e developing an A zure function that connects t o an A zure SQL Database instance. The function is trigger ed by an A zure Storage queue.\nYou receiv e repor ts of numer ous System.Inv alidOper ationEx ceptions with the following message:\n`Timeout expir ed. The timeout period elapsed prior t o obtaining a connection fr om the pool. This ma y have occurr ed because all pooled\nconnections wer e in use and max pool siz e was r eached.`\nYou need t o prevent the ex ception.\nWhat should y ou do?",
+    "options": [
+      "A. In the host.json file, decr ease the v alue of the batchSiz e option",
+      "B. Conv ert the trigger t o Azure Event Hub",
+      "C. Conv ert the A zure Function t o the Pr emium plan",
+      "D. In the function.json file, change the v alue of the type option t o queueScaling"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 5 Question #10 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution.\nDetermine whether the solution meets the stated goals.\nYou ar e developing and deplo ying se veral ASP .NET web applications t o Azure App Ser vice. Y ou plan t o save session state information and H TML\noutput.\nYou must use a st orage mechanism with the following r equir ements:\n\u2711 Shar e session state acr oss all ASP .NET web applications.\n\u2711 Suppor t contr olled, concurr ent access t o the same session state data for multiple r eaders and a single writer .\n\u2711 Save full H TTP responses for concurr ent r equests.\nYou need t o store the information.\nProposed Solution: Deplo y and configur e Azure Cache for Redis. Update the web applications.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 5 Question #13 You de velop and deplo y an ASP .NET web app t o Azure App Ser vice. Y ou use Application Insights telemetr y to monit or the app.\nYou must test the app t o ensur e that the app is a vailable and r esponsiv e from v arious points ar ound the world and at r egular inter vals. If the app is\nnot r esponding, y ou must send an aler t to suppor t staff.\nYou need t o configur e a test for the web app.\nWhich two test types can y ou use? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. integr ation",
+      "B. multi-step web",
+      "C. URL ping",
+      "D. unit",
+      "E. load"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 5 Question #15 You ar e developing applications for a company . You plan t o host the applications on A zure App Ser vices.\nThe company has the following r equir ements:\n\u2711 Every five minutes v erify that the websites ar e responsiv e.\n\u2711 Verify that the websites r espond within a specified time thr eshold. Dependent r equests such as images and Ja vaScript files must load pr operly .\n\u2711 Gener ate aler ts if a website is experiencing issues.\n\u2711 If a website fails t o load, the system must attempt t o reload the site thr ee mor e times.\nYou need t o implement this pr ocess with the least amount of effor t.\nWhat should y ou do?",
+    "options": [
+      "A. Create a Selenium web test and configur e it t o run fr om y our workstation as a scheduled task.",
+      "B. Set up a URL ping test t o quer y the home page.",
+      "C. Create an A zure function t o quer y the home page.",
+      "D. Create a multi-step web test t o quer y the home page.",
+      "E. Create a Cust om Track A vailability Test t o quer y the home page."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #16 You de velop and add se veral functions t o an A zure Function app that uses the latest runtime host. The functions contain se veral REST  API\nendpoints secur ed by using SSL. The A zure Function app runs in a Consumption plan.\nYou must send an aler t when any of the function endpoints ar e una vailable or r esponding t oo slowly .\nYou need t o monit or the a vailability and r esponsiv eness of the functions.\nWhat should y ou do?",
+    "options": [
+      "A. Create a URL ping test.",
+      "B. Create a timer trigger ed function that calls TrackA vailability() and send the r esults t o Application Insights.",
+      "C. Create a timer trigger ed function that calls GetMetric(\"Request Siz e\") and send the r esults t o Application Insights.",
+      "D. Add a new diagnostic setting t o the A zure Function app. Enable the F unctionAppLogs and Send t o Log Analytics options."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 5 Question #20 You de velop and deplo y an A zure App Ser vice web app. The app is deplo yed to multiple r egions and uses A zure Trafic Manager . Application\nInsights is enabled for the app.\nYou need t o analyz e app uptime for each month.\nWhich two solutions will achie ve the goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Monit or logs",
+      "B. Application Insights aler ts",
+      "C. Azure Monit or metrics",
+      "D. Application Insights web tests"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #22 You ar e developing an ASP .NET Core Web API web ser vice. The web ser vice uses A zure Application Insights for all telemetr y and dependency\ntracking. The web ser vice r eads and writes data t o a database other than Micr osoft SQL Ser ver.\nYou need t o ensur e that dependency tr acking works for calls t o the thir d-par ty database.\nWhich two dependency telemetr y proper ties should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Telemetr y.Context.Cloud.RoleInstance",
+      "B. Telemetr y.Id",
+      "C. Telemetr y.Name",
+      "D. Telemetr y.Context.Oper ation.Id",
+      "E. Telemetr y.Context.Session.Id"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #26 You ar e developing a web application that uses A zure Cache for Redis. Y ou anticipate that the cache will fr equently fill and that y ou will need t o\nevict k eys.\nYou must configur e Azure Cache for Redis based on the following pr edicted usage pattern: A small subset of elements will be accessed much\nmore often than the r est.\nYou need t o configur e the A zure Cache for Redis t o optimiz e per formance for the pr edicted usage pattern.\nWhich two e viction policies will achie ve the goal?\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. noeviction",
+      "B. allkeys-lru",
+      "C. volatile-lru",
+      "D. allkeys-random",
+      "E. volatile-ttl",
+      "F. volatile-r andom"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 5 Question #28 An or ganization hosts web apps in A zure. The or ganization uses A zure Monit or.\nYou disco ver that configur ation changes wer e made t o some of the web apps.\nYou need t o identify the configur ation changes.\nWhich A zure Monit or log should y ou review?",
+    "options": [
+      "A. AppSer viceAppLogs",
+      "B. AppSer viceEnvir onmentPlatformlogs",
+      "C. AppSer viceConsoleLogs",
+      "D. AppSer viceA uditLogs"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 5 Question #29 You de velop and deplo y an A zure App Ser vice web app t o a pr oduction envir onment. Y ou enable the Alwa ys On setting and the Application\nInsights site extensions.\nYou deplo y a code update and r eceiv e multiple failed r equests and ex ceptions in the web app.\nYou need t o validate the per formance and failur e counts of the web app in near r eal time.\nWhich Application Insights t ool should y ou use?",
+    "options": [
+      "A. Profiler",
+      "B. Smar t Detection",
+      "C. Live Metrics Str eam",
+      "D. Application Map",
+      "E. Snapshot Debugger"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 5 Question #31 You ar e building a web application that per forms image analysis on user phot os and r eturns metadata containing objects identified. The image\nanalysis is v ery costly in terms of time and compute r esour ces. Y ou ar e planning t o use A zure Redis Cache so duplicate uploads do not need t o be\nreprocessed.\nIn case of an A zure data center outage, metadata loss must be k ept t o a minimum.\nYou need t o configur e the A zure Redis cache instance.\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Configur e Azure Redis with A OF persistence.",
+      "B. Configur e Azure Redis with RDB persistence.",
+      "C. Configur e second st orage account for persistence.",
+      "D. Set backup fr equency t o the minimum v alue."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #32 You ar e developing an A zure-based web application. The application goes ofiine periodically t o per form ofiine data pr ocessing. While the\napplication is ofiine, numer ous A zure Monit or aler ts fir e which r esult in the on-call de veloper being paged.\nThe application must alwa ys log when the application is ofiine for any r eason.\nYou need t o ensur e that the on-call de veloper is not paged during ofiine pr ocessing.\nWhat should y ou do?",
+    "options": [
+      "A. Add A zure Monit or aler t processing rules t o suppr ess notifications.",
+      "B. Disable A zure Monit or Ser vice Health Aler ts during ofiine pr ocessing.",
+      "C. Create an A zure Monit or Metric Aler t.",
+      "D. Build an A zure Monit or action gr oup that suppr esses the aler ts."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #33 You ar e developing an online game that includes a f eatur e that allows pla yers t o inter act with other pla yers on the same team within a cer tain\ndistance. The calculation t o determine the pla yers in r ange occurs when pla yers mo ve and ar e cached in an A zure Cache for Redis instance.\nThe system should prioritiz e pla yers based on how r ecently the y have mo ved and should not prioritiz e pla yers who ha ve logged out of the game.\nYou need t o select an e viction policy .\nWhich e viction policy should y ou use?",
+    "options": [
+      "A. allkeys-Iru",
+      "B. volatile-Iru",
+      "C. allkeys-lfu",
+      "D. volatile-ttl"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 5 Question #34 You de velop an A zure App Ser vice web app and deplo y to a pr oduction envir onment. Y ou enable Application Insights for the web app.\nThe web app is thr owing multiple ex ceptions in the envir onment.\nYou need t o examine the state of the sour ce code and v ariables when the ex ceptions ar e thr own.\nWhich Application Insights f eatur e should y ou configur e?",
+    "options": [
+      "A. Smar t detection",
+      "B. Profiler",
+      "C. Snapshot Debugger",
+      "D. Standar d test"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 5 Question #37 You de velop an ASP .NET Core app that uses A zure App Configur ation. Y ou also cr eate an App Configur ation containing 100 settings.\nThe app must meet the following r equir ements:\n\u2022 Ensur e the consistency of all configur ation data when changes t o individual settings occur .\n\u2022 Handle configur ation data changes dynamically without causing the application t o restar t.\n\u2022 Reduce the o verall number of r equests made t o App Configur ation APIs.\nYou must implement dynamic configur ation updates in the app.\nWhat ar e two wa ys to achie ve this goal? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Create and r egister a sentinel k ey in the App Configur ation st ore. Set the r efreshAll par ameter of the Register method t o true.",
+      "B. Increase the App Configur ation cache expir ation fr om the default v alue.",
+      "C. Decr ease the App Configur ation cache expir ation fr om the default v alue.",
+      "D. Create and configur e Azure Key Vault. Implement the A zure Key Vault configur ation pr ovider .",
+      "E. Register all k eys in the App Configur ation st ore. Set the r efreshAll par ameter of the Register method t o false.",
+      "F. Create and implement envir onment v ariables for each App Configur ation st ore setting."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 5 Question #39 You de velop and deplo y a web app t o Azure App Ser vice. The A zure App Ser vice uses a Basic plan in a single r egion.\nUsers r epor t that the web app is r esponding slow . You must captur e the complete call stack t o help identify per formance issues in the code. Call\nstack data must be corr elated acr oss app instances. Y ou must minimiz e cost and impact t o users on the web app.\nYou need t o captur e the telemetr y.\nWhich thr ee actions should y ou per form? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Restar t all apps in the App Ser vice plan.",
+      "B. Enable Application Insights site extensions.",
+      "C. Upgr ade the A zure App Ser vice plan t o Premium.",
+      "D. Enable Pr ofiler .",
+      "E. Enable the Alwa ys On setting for the app ser vice.",
+      "F. Enable Snapshot debugger .",
+      "G. Enable r emote debugging."
+    ]
+  },
+  {
+    "question": "Topic 5 Question #40 You ar e building an application t o track cell t owers that ar e available t o phones in near r eal time. A phone will send information t o the application\nby using the A zure Web PubSub ser vice. The data will be pr ocessed b y using an A zure Functions app. Trafic will be tr ansmitted b y using a content\ndeliv ery network (CDN).\nThe A zure function must be pr otected against misconfigur ed or unauthoriz ed inv ocations.\nYou need t o ensur e that the CDN allows for the A zure function pr otection.\nWhich H TTP header should be on the allowed list?",
+    "options": [
+      "A. Authorization",
+      "B. WebHook-Request-Callback",
+      "C. Resour ce",
+      "D. WebHook-Request-Origin"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 5 Question #41 You ar e developing an A zure App Ser vice web app.\nThe web app must secur ely st ore session information in A zure Redis Cache.\nYou need t o connect the web app t o Azure Redis Cache.\nWhich thr ee A zure Redis Cache pr oper ties should y ou use? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Access k ey",
+      "B. SSL por t",
+      "C. Subscription name",
+      "D. Location",
+      "E. Host name",
+      "F. Subscription id"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Topic 6 Question #1 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure solution t o collect point-of-sale (POS) de vice data fr om 2,000 st ores located thr oughout the world. A single de vice\ncan pr oduce 2 megab ytes (MB) of data e very 24 hours. Each st ore location has one t o five devices that send data.\nYou must st ore the de vice data in A zure Blob st orage. De vice data must be corr elated based on a de vice identifier . Additional st ores ar e expected\nto open in the futur e.\nYou need t o implement a solution t o receiv e the de vice data.\nSolution: Pr ovision an A zure Ser vice Bus. Configur e a topic t o receiv e the de vice data b y using a corr elation filter .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 6 Question #2 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure solution t o collect point-of-sale (POS) de vice data fr om 2,000 st ores located thr oughout the world. A single de vice\ncan pr oduce 2 megab ytes (MB) of data e very 24 hours. Each st ore location has one t o five devices that send data.\nYou must st ore the de vice data in A zure Blob st orage. De vice data must be corr elated based on a de vice identifier . Additional st ores ar e expected\nto open in the futur e.\nYou need t o implement a solution t o receiv e the de vice data.\nSolution: Pr ovision an A zure Event Grid. Configur e event filtering t o evaluate the de vice identifier .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #7 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure Ser vice application that pr ocesses queue data when it r eceiv es a message fr om a mobile application. Messages ma y\nnot be sent t o the ser vice consistently .\nYou ha ve the following r equir ements:\n\u2711 Queue siz e must not gr ow lar ger than 80 gigab ytes (GB).\n\u2711 Use first-in-first-out (FIFO) or dering of messages.\n\u2711 Minimiz e Azure costs.\nYou need t o implement the messaging solution.\nSolution: Use the .Net API t o add a message t o an A zure Storage Queue fr om the mobile application. Cr eate an A zure Function App that uses an\nAzure Storage\nQueue trigger .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #10 You ar e developing an A zure messaging solution.\nYou need t o ensur e that the solution meets the following r equir ements:\n\u2711 Provide tr ansactional suppor t.\n\u2711 Provide duplicate detection.\n\u2711 Store the messages for an unlimited period of time.\nWhich two technologies will meet the r equir ements? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Azure Ser vice Bus Topic",
+      "B. Azure Ser vice Bus Queue",
+      "C. Azure Storage Queue",
+      "D. Azure Event Hub"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #14 You ar e developing a solution that will use A zure messaging ser vices.\nYou need t o ensur e that the solution uses a publish-subscribe model and eliminates the need for constant polling.\nWhat ar e two possible wa ys to achie ve the goal? Each corr ect answer pr esents a complete solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": ["A. Service Bus", "B. Event Hub", "C. Event Grid", "D. Queue"],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 6 Question #15 A company is implementing a publish-subscribe (Pub/Sub) messaging component b y using A zure Ser vice Bus. Y ou ar e developing the first\nsubscription application.\nIn the A zure por tal you see that messages ar e being sent t o the subscription for each t opic. Y ou cr eate and initializ e a subscription client object\nby supplying the corr ect details, but the subscription application is still not consuming the messages.\nYou need t o ensur e that the subscription client pr ocesses all messages.\nWhich code segment should y ou use?",
+    "options": [
+      "A. await subscriptionClient.AddRuleAsync(new RuleDescription(RuleDescription.DefaultRuleName, new TrueFilter()));",
+      "B. subscriptionClient = new SubscriptionClient(Ser viceBusConnectionString, TopicName, SubscriptionName);",
+      "C. await subscriptionClient.CloseAsync();",
+      "D. subscriptionClient.RegisterMessageHandler(Pr ocessMessagesAsync, messageHandlerOptions);"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 6 Question #16 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure Ser vice application that pr ocesses queue data when it r eceiv es a message fr om a mobile application. Messages ma y\nnot be sent t o the ser vice consistently .\nYou ha ve the following r equir ements:\n\u2711 Queue siz e must not gr ow lar ger than 80 gigab ytes (GB).\n\u2711 Use first-in-first-out (FIFO) or dering of messages.\n\u2711 Minimiz e Azure costs.\nYou need t o implement the messaging solution.\nSolution: Use the .Net API t o add a message t o an A zure Storage Queue fr om the mobile application. Cr eate an A zure VM that is trigger ed fr om\nAzure Storage\nQueue e vents.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #17 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure Ser vice application that pr ocesses queue data when it r eceiv es a message fr om a mobile application. Messages ma y\nnot be sent t o the ser vice consistently .\nYou ha ve the following r equir ements:\n\u2711 Queue siz e must not gr ow lar ger than 80 gigab ytes (GB).\n\u2711 Use first-in-first-out (FIFO) or dering of messages.\n\u2711 Minimiz e Azure costs.\nYou need t o implement the messaging solution.\nSolution: Use the .Net API t o add a message t o an A zure Ser vice Bus Queue fr om the mobile application. Cr eate an A zure Windows VM that is\ntrigger ed fr om\nAzure Ser vice Bus Queue.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #20 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure solution t o collect point-of-sale (POS) de vice data fr om 2,000 st ores located thr oughout the world. A single de vice\ncan pr oduce\n2 megab ytes (MB) of data e very 24 hours. Each st ore location has one t o five devices that send data.\nYou must st ore the de vice data in A zure Blob st orage. De vice data must be corr elated based on a de vice identifier . Additional st ores ar e expected\nto open in the futur e.\nYou need t o implement a solution t o receiv e the de vice data.\nSolution: Pr ovision an A zure Event Hub. Configur e the machine identifier as the par tition k ey and enable captur e.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 6 Question #22 You ar e creating an app that will use CosmosDB for data st orage. The app will pr ocess batches of r elational data.\nYou need t o select an API for the app.\nWhich API should y ou use?",
+    "options": [
+      "A. MongoDB API",
+      "B. Table API",
+      "C. SQL API",
+      "D. Cassandr a API"
+    ]
+  },
+  {
+    "question": "Topic 6 Question #26 You ar e developing an e-commer ce solution that uses a micr oser vice ar chitectur e.\nYou need t o design a communication backplane for communicating tr ansactional messages between v arious par ts of the solution. Messages\nmust be communicated in first-in-first-out (FIFO) or der.\nWhat should y ou use?",
+    "options": [
+      "A. Azure Storage Queue",
+      "B. Azure Event Hub",
+      "C. Azure Ser vice Bus",
+      "D. Azure Event Grid"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 6 Question #28 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure Ser vice application that pr ocesses queue data when it r eceiv es a message fr om a mobile application. Messages ma y\nnot be sent t o the ser vice consistently .\nYou ha ve the following r equir ements:\n\u2711 Queue siz e must not gr ow lar ger than 80 gigab ytes (GB).\n\u2711 Use first-in-first-out (FIFO) or dering of messages.\n\u2711 Minimiz e Azure costs.\nYou need t o implement the messaging solution.\nSolution: Use the .Net API t o add a message t o an A zure Ser vice Bus Queue fr om the mobile application. Cr eate an A zure Function App that uses\nan A zure\nService Bus Queue trigger .\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 6 Question #29 Note: This question is par t of a series of questions that pr esent the same scenario. Each question in the series contains a unique solution that\nmight meet the stated goals. Some question sets might ha ve mor e than one corr ect solution, while others might not ha ve a corr ect solution.\nAfter y ou answer a question in this section, y ou will NO T be able t o return t o it. As a r esult, these questions will not appear in the r eview scr een.\nYou ar e developing an A zure solution t o collect point-of-sale (POS) de vice data fr om 2,000 st ores located thr oughout the world. A single de vice\ncan pr oduce 2 megab ytes (MB) of data e very 24 hours. Each st ore location has one t o five devices that send data.\nYou must st ore the de vice data in A zure Blob st orage. De vice data must be corr elated based on a de vice identifier . Additional st ores ar e expected\nto open in the futur e.\nYou need t o implement a solution t o receiv e the de vice data.\nSolution: Pr ovision an A zure Notification Hub. Register all de vices with the hub.\nDoes the solution meet the goal?",
+    "options": ["A. Yes", "B. No"],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #30 You ar e building a lo yalty pr ogram for a major snack pr oducer . When cust omers buy a snack at any of 100 par ticipating r etailers the e vent is\nrecor ded in A zure\nEvent Hub. Each r etailer is giv en a unique identifier that is used as the primar y identifier for the lo yalty pr ogram.\nRetailers must be able t o be added or r emoved at any time. Retailers must only be able t o recor d sales for themselv es.\nYou need t o ensur e that r etailers can r ecor d sales.\nWhat should y ou do?",
+    "options": [
+      "A. Use publisher policies for r etailers.",
+      "B. Create a par tition for each r etailer .",
+      "C. Define a namespace for each r etailer ."
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Topic 6 Question #32 You de velop a solution that uses A zure Vir tual Machines ( VMs).\nThe VMs contain code that must access r esour ces in an A zure resour ce gr oup. Y ou gr ant the VM access t o the r esour ce gr oup in Resour ce\nManager .\nYou need t o obtain an access t oken that uses the VM' s system-assigned managed identity .\nWhich two actions should y ou per form? Each corr ect answer pr esents par t of the solution.",
+    "options": [
+      "A. From the code on the VM, call A zure Resour ce Manager using an access t oken.",
+      "B. Use P owerShell on a r emote machine t o mak e a request t o the local managed identity for A zure resour ces endpoint.",
+      "C. Use P owerShell on the VM t o mak e a request t o the local managed identity for A zure resour ces endpoint.",
+      "D. From the code on the VM, call A zure Resour ce Manager using a SAS t oken.",
+      "E. From the code on the VM, gener ate a user delegation SAS t oken."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 6 Question #33 You ar e developing a r oad t ollwa y tracking application that sends tr acking e vents b y using A zure Event Hubs using pr emium tier .\nEach r oad must ha ve a thr ottling policy uniquely assigned.\nYou need t o configur e the e vent hub t o allow for per-r oad thr ottling.\nWhat should y ou do?",
+    "options": [
+      "A. Use a unique consumer gr oup for each r oad.",
+      "B. Ensur e each r oad st ores events in a diff erent par tition.",
+      "C. Ensur e each r oad has a unique connection string.",
+      "D. Use a unique application gr oup for each r oad."
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #34 You de velop and deplo y an ASP .NET Core application that connects t o an A zure Database for MySQL instance.\nConnections t o the database appear t o drop intermittently and the application code does not handle the connection failur e.\nYou need t o handle the tr ansient connection err ors in code b y implementing r etries.\nWhat ar e thr ee possible wa ys to achie ve this goal? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Close the database connection and immediately r epor t an err or.",
+      "B. Disable connection pooling and configur e a second A zure Database for MySQL instance.",
+      "C. Wait fiv e seconds befor e repeating the connection attempt t o the database.",
+      "D. Set a maximum number of connection attempts t o 10 and r epor t an err or on subsequent connections.",
+      "E. Increase connection r epeat attempts exponentially up t o 120 seconds."
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Topic 6 Question #35 You ar e building a B2B web application that uses A zure B2B collabor ation for authentication. P aying cust omers authenticate t o Azure B2B using\nfederation.\nThe application allows users t o sign up for trial accounts using any email addr ess.\nWhen a user conv erts to a pa ying cust omer , the data associated with the trial should be k ept, but the user must authenticate using f ederation.\nYou need t o update the user in A zure Activ e Dir ectory (Azure AD) when the y conv ert to a pa ying cust omer .\nWhich Gr aph API par ameter is used t o change authentication fr om one-time passcodes t o federation?",
+    "options": [
+      "A. resetRedemption",
+      "B. Status",
+      "C. userFlowT ype",
+      "D. invitedUser"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Topic 6 Question #39 A company is de veloping a solution that allows smar t refriger ators t o send temper ature information t o a centr al location.\nThe solution must r eceiv e and st ore messages until the y can be pr ocessed. Y ou cr eate an A zure Ser vice Bus instance b y providing a name, pricing\ntier, subscription, r esour ce gr oup, and location.\nYou need t o complete the configur ation.\nWhich A zure CLI or P owerShell command should y ou run?",
+    "options": ["A. ", "B. ", "C. ", "D."],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 6 Question #40 A company is de veloping a solution that allows smar t refriger ators t o send temper ature information t o a centr al location.\nThe solution must r eceiv e and st ore messages until the y can be pr ocessed. Y ou cr eate an A zure Ser vice Bus instance b y providing a name, pricing\ntier, subscription, r esour ce gr oup, and location.\nYou need t o complete the configur ation.\nWhich A zure CLI or P owerShell command should y ou run?",
+    "options": ["A. ", "B. ", "C. ", "D. "],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 6 Question #43 You ar e developing se veral Azure API Management (APIM) hosted APIs.\nThe APIs ha ve the following r equir ements:\n\u2022 Requir e a subscription k ey to access all APIs.\n\u2022 Include terms of use that subscribers must accept t o use the APIs.\n\u2022 Administr ators must r eview and accept or r eject subscription attempts.\n\u2022 Limit the count of multiple simultaneous subscriptions.\nYou need t o implement the APIs.\nWhat should y ou do?",
+    "options": [
+      "A. Configur e and apply header-based v ersioning.",
+      "B. Create and publish a pr oduct.",
+      "C. Configur e and apply quer y string-based v ersioning.",
+      "D. Add a new r evision t o all APIs. Mak e the r evisions curr ent and add a change log entr y."
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Topic 6 Question #46 You ar e developing se veral Azure API Management (APIM) hosted APIs.\nYou must inspect r equest pr ocessing of the APIs in APIM. Requests t o APIM b y using a REST  client must also be included. The r equest inspection\nmust include the following information:\n\u2022 requests APIM sent t o the API back end and the r esponse it r eceiv ed\n\u2022 policies applied t o the r esponse befor e sending back t o the caller\n\u2022 errors that occurr ed during the pr ocessing of the r equest and the policies applied t o the err ors\n\u2022 original r equest APIM r eceiv ed fr om the caller and the policies applied t o the r equest\nYou need t o inspect the APIs.\nWhich thr ee actions should y ou do? Each corr ect answer pr esents par t of the solution.\nNOTE: Each corr ect selection is wor th one point.",
+    "options": [
+      "A. Enable the Allow tr acing setting for the subscription used t o inspect the API.",
+      "B. Add the Ocp-Apim-T race header v alue t o the API call whit a v alue set t o true.",
+      "C. Add the Ocp-Apim-Subscription-K ey header v alue t o the k ey for a subscription that allows access t o the API.",
+      "D. Create and configur e a cust om policy . Apply the policy t o the inbound policy section with a global scope.",
+      "E. Create and configur e a cust om policy . Apply the policy t o the outbound policy section with an API scope."
+    ],
+    "correctAnswer": 4
+  }
+]

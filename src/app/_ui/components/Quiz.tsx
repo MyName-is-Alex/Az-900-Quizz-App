@@ -2,231 +2,213 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { quizQuestions } from "@/ui/content/content";
+import { quizQuestions, quizQuestionsDataType } from "@/ui/content/content";
 import { quizQuestionsType } from "@/ui/content/content";
 import { Button } from "@/ui/components/Button";
 import { OptionList } from "./OptionList";
 import { formatTime } from "../utils/formatTime";
 import { Result } from "./Result";
-import {
-  playCorrectAnswer,
-  playWrongAnswer,
-  playQuizEnd,
-} from "../utils/playSound";
+import { playCorrectAnswer, playWrongAnswer, playQuizEnd } from "../utils/playSound";
 
-const TIME_LIMIT = 120; // 1 minute per question
-const numberOfQuestions = 40;
-function getTestQuestions() {
-  const questions: quizQuestionsType[] = [];
-  for (let i = 0; i < numberOfQuestions; i++) {
-    const questionIndex = Math.floor(Math.random() * quizQuestions.length);
-    questions.push(quizQuestions[questionIndex]);
-    quizQuestions.splice(questionIndex, 1);
-  }
+export const Quiz = ({ setOfQuestions }: { setOfQuestions: number }) => {
+    const timerRef = useRef<NodeJS.Timeout | null>(null);
 
-  return questions;
-}
-const randomQuizQuestions = getTestQuestions();
+    const [timePassed, setTimePassed] = useState(0);
+    const [activeQuestion, setActiveQuestion] = useState(0);
+    const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
+    const [quizFinished, setQuizFinished] = useState(false);
+    const [isCorrectAnswer, setIsCorrectAnswer] = useState(false);
+    const [results, setResults] = useState({
+        correctAnswers: 0,
+        wrongAnswers: 0,
+        secondsUsed: 0,
+    });
 
-export const Quiz = () => {
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+    const TIME_LIMIT = 120; // 1 minute per question
+    const numberOfQuestions = 40;
+    const [randomQuizQuestions, setRandomQuizQuestions] = useState<quizQuestionsType[]>([
+        { question: "", options: [] },
+    ]);
 
-  const [timePassed, setTimePassed] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState(0);
-  const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(-1);
-  const [quizFinished, setQuizFinished] = useState(false);
-  const [isCorrectAnswer, setIsCorrectAnswer] = useState(false);
-  const [results, setResults] = useState({
-    correctAnswers: 0,
-    wrongAnswers: 0,
-    secondsUsed: 0,
-  });
+    function getTestQuestions() {
+        const questions: quizQuestionsType[] = [];
+        for (let i = 0; i < numberOfQuestions; i++) {
+            const questionIndex = Math.floor(Math.random() * quizQuestions[setOfQuestions].questions.length);
+            questions.push(quizQuestions[setOfQuestions].questions[questionIndex]);
+            quizQuestions[setOfQuestions].questions.splice(questionIndex, 1);
+        }
 
-  const setupTimer = () => {
-    if (timerRef.current) {
-      clearInterval(timerRef.current);
+        return questions;
     }
+    useEffect(() => {
+        const questions = getTestQuestions();
+        setRandomQuizQuestions(questions);
+    }, [setOfQuestions]);
 
-    timerRef.current = setInterval(() => {
-      setTimePassed((prevTimePassed) =>
-        prevTimePassed > TIME_LIMIT ? TIME_LIMIT : prevTimePassed + 1
-      );
-    }, 1000);
-  };
+    const setupTimer = () => {
+        if (timerRef.current) {
+            clearInterval(timerRef.current);
+        }
 
-  useEffect(() => {
-    if (quizFinished) return;
-
-    setupTimer();
-
-    return () => {
-      if (timerRef.current) {
-        clearInterval(timerRef.current);
-      }
+        timerRef.current = setInterval(() => {
+            setTimePassed((prevTimePassed) => (prevTimePassed > TIME_LIMIT ? TIME_LIMIT : prevTimePassed + 1));
+        }, 1000);
     };
-  }, [quizFinished]);
 
-  useEffect(() => {
-    if (quizFinished) return;
+    useEffect(() => {
+        if (quizFinished) return;
 
-    if (timePassed > TIME_LIMIT) {
-      // The time limit has been reached for this question
-      // So the answerr will be considered wrong
+        setupTimer();
 
-      // Update results
-      if (selectedAnswerIndex === -1) {
-        setResults((prev) => ({
-          ...prev,
-          secondsUsed: prev.secondsUsed + TIME_LIMIT,
-          wrongAnswers: prev.wrongAnswers + 1,
-        }));
-      }
+        return () => {
+            if (timerRef.current) {
+                clearInterval(timerRef.current);
+            }
+        };
+    }, [quizFinished]);
 
-      handleNextQuestion();
-      // Restart timer
-      setTimePassed(0);
+    useEffect(() => {
+        if (quizFinished) return;
+
+        if (timePassed > TIME_LIMIT) {
+            // The time limit has been reached for this question
+            // So the answerr will be considered wrong
+
+            // Update results
+            if (selectedAnswerIndex === -1) {
+                setResults((prev) => ({
+                    ...prev,
+                    secondsUsed: prev.secondsUsed + TIME_LIMIT,
+                    wrongAnswers: prev.wrongAnswers + 1,
+                }));
+            }
+
+            handleNextQuestion();
+            // Restart timer
+            setTimePassed(0);
+        }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [timePassed]);
+
+    const handleNextQuestion = () => {
+        // Reset selected answer
+        setSelectedAnswerIndex(-1);
+
+        // Check if quiz finished
+        if (activeQuestion + 1 >= randomQuizQuestions.length) {
+            console.log("Quiz finished!");
+            playQuizEnd();
+            setQuizFinished(true);
+            return;
+        }
+
+        // Set next question
+        setActiveQuestion((prev) => prev + 1);
+
+        // Reset timer
+        setupTimer();
+        setTimePassed(0);
+    };
+
+    const handleSelectAnswer = (answerIndex: number) => {
+        //  Stop timer
+        clearInterval(timerRef.current!);
+        setSelectedAnswerIndex(answerIndex);
+
+        // Check if answer is correct
+        const correctAnswer = randomQuizQuestions[activeQuestion].correctAnswer;
+        const selectedAnswer = answerIndex;
+
+        if (correctAnswer === selectedAnswer) {
+            console.log("Correct answer!");
+            playCorrectAnswer();
+            // Update results
+            setResults((prev) => ({
+                ...prev,
+                secondsUsed: prev.secondsUsed + timePassed,
+                correctAnswers: prev.correctAnswers + 1,
+            }));
+
+            setIsCorrectAnswer(true);
+        } else {
+            console.log("Wrong answer!");
+            playWrongAnswer();
+            // Update results
+            setResults((prev) => ({
+                ...prev,
+                secondsUsed: prev.secondsUsed + timePassed,
+                wrongAnswers: prev.wrongAnswers + 1,
+            }));
+            setIsCorrectAnswer(false);
+        }
+    };
+
+    const { question, options } = randomQuizQuestions[activeQuestion];
+
+    if (quizFinished) {
+        return <Result results={results} totalQuestions={randomQuizQuestions.length} />;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [timePassed]);
 
-  const handleNextQuestion = () => {
-    // Reset selected answer
-    setSelectedAnswerIndex(-1);
-
-    // Check if quiz finished
-    if (activeQuestion + 1 >= randomQuizQuestions.length) {
-      console.log("Quiz finished!");
-      playQuizEnd();
-      setQuizFinished(true);
-      return;
-    }
-
-    // Set next question
-    setActiveQuestion((prev) => prev + 1);
-
-    // Reset timer
-    setupTimer();
-    setTimePassed(0);
-  };
-
-  const handleSelectAnswer = (answerIndex: number) => {
-    //  Stop timer
-    clearInterval(timerRef.current!);
-    setSelectedAnswerIndex(answerIndex);
-
-    // Check if answer is correct
-    const correctAnswer = randomQuizQuestions[activeQuestion].correctAnswer;
-    const selectedAnswer = answerIndex;
-
-    if (correctAnswer === selectedAnswer) {
-      console.log("Correct answer!");
-      playCorrectAnswer();
-      // Update results
-      setResults((prev) => ({
-        ...prev,
-        secondsUsed: prev.secondsUsed + timePassed,
-        correctAnswers: prev.correctAnswers + 1,
-      }));
-
-      setIsCorrectAnswer(true);
-    } else {
-      console.log("Wrong answer!");
-      playWrongAnswer();
-      // Update results
-      setResults((prev) => ({
-        ...prev,
-        secondsUsed: prev.secondsUsed + timePassed,
-        wrongAnswers: prev.wrongAnswers + 1,
-      }));
-      setIsCorrectAnswer(false);
-    }
-  };
-
-  const { question, options } = randomQuizQuestions[activeQuestion];
-  const numberOfQuestions = randomQuizQuestions.length;
-
-  if (quizFinished) {
     return (
-      <Result results={results} totalQuestions={randomQuizQuestions.length} />
-    );
-  }
+        <motion.div
+            key={"countdown"}
+            variants={{
+                initial: {
+                    background: "#FF6A66",
+                    clipPath: "circle(0% at 50% 50%)",
+                },
+                animate: {
+                    background: "#ffffff",
+                    clipPath: "circle(100% at 50% 50%)",
+                },
+            }}
+            className="w-full h-full flex justify-center p-5"
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            transition={{ duration: 0.5 }}
+        >
+            <div className="flex flex-col text-black font-bold text-[32px] text-center w-full">
+                <h1 className="font-bold text-base text-brand-cerulean-blue">QuizApp</h1>
+                <div className="mt-6 rounded-2xl border border-brand-light-gray px-7 py-4 w-full mb-1">
+                    <h3 className="text-black font-medium text-sm">
+                        Question {activeQuestion + 1} / {numberOfQuestions}
+                    </h3>
 
-  return (
-    <motion.div
-      key={"countdown"}
-      variants={{
-        initial: {
-          background: "#FF6A66",
-          clipPath: "circle(0% at 50% 50%)",
-        },
-        animate: {
-          background: "#ffffff",
-          clipPath: "circle(100% at 50% 50%)",
-        },
-      }}
-      className="w-full h-full flex justify-center p-5"
-      initial="initial"
-      animate="animate"
-      exit="exit"
-      transition={{ duration: 0.5 }}
-    >
-      <div className="flex flex-col text-black font-bold text-[32px] text-center w-full">
-        <h1 className="font-bold text-base text-brand-cerulean-blue">
-          QuizApp
-        </h1>
-        <div className="mt-6 rounded-2xl border border-brand-light-gray px-7 py-4 w-full mb-1">
-          <h3 className="text-black font-medium text-sm">
-            Question {activeQuestion + 1} / {numberOfQuestions}
-          </h3>
+                    <div key={activeQuestion} className="flex justify-center items-center w-full mt-[18px]">
+                        {/* Start time */}
+                        <span className="text-brand-mountain-mist text-xs font-normal">{formatTime(timePassed)}</span>
 
-          <div
-            key={activeQuestion}
-            className="flex justify-center items-center w-full mt-[18px]"
-          >
-            {/* Start time */}
-            <span className="text-brand-mountain-mist text-xs font-normal">
-              {formatTime(timePassed)}
-            </span>
+                        {/* Bar */}
+                        <div className="relative flex-1 h-3 bg-[#F0F0F0] mx-1 rounded-full">
+                            <motion.div
+                                className="absolute top-0 left-0 h-full bg-brand-cerulean-blue rounded-full"
+                                initial={{ width: "0%" }}
+                                animate={{ width: `${(timePassed / TIME_LIMIT) * 100}%` }}
+                                transition={{ duration: 1 }}
+                            />
+                        </div>
+                        {/* End time */}
+                        <span className="text-brand-mountain-mist text-xs font-normal">{formatTime(TIME_LIMIT)}</span>
+                    </div>
 
-            {/* Bar */}
-            <div className="relative flex-1 h-3 bg-[#F0F0F0] mx-1 rounded-full">
-              <motion.div
-                className="absolute top-0 left-0 h-full bg-brand-cerulean-blue rounded-full"
-                initial={{ width: "0%" }}
-                animate={{ width: `${(timePassed / TIME_LIMIT) * 100}%` }}
-                transition={{ duration: 1 }}
-              />
+                    <h4 className="font-jakarta font-extralarge text-base mt-[34px]">{question}</h4>
+                </div>
+
+                <OptionList
+                    activeQuestion={randomQuizQuestions[activeQuestion]}
+                    options={options}
+                    selectedAnswerIndex={selectedAnswerIndex}
+                    onAnswerSelected={handleSelectAnswer}
+                    isCorrectAnswer={isCorrectAnswer}
+                />
+
+                <div className="mt-auto w-full z-10">
+                    <Button disabled={selectedAnswerIndex === -1} block size="small" onClick={handleNextQuestion}>
+                        Next
+                    </Button>
+                </div>
             </div>
-            {/* End time */}
-            <span className="text-brand-mountain-mist text-xs font-normal">
-              {formatTime(TIME_LIMIT)}
-            </span>
-          </div>
-
-          <h4 className="font-jakarta font-extralarge text-base mt-[34px]">
-            {question}
-          </h4>
-        </div>
-
-        <OptionList
-          activeQuestion={randomQuizQuestions[activeQuestion]}
-          options={options}
-          selectedAnswerIndex={selectedAnswerIndex}
-          onAnswerSelected={handleSelectAnswer}
-          isCorrectAnswer={isCorrectAnswer}
-        />
-
-        <div className="mt-auto w-full z-10">
-          <Button
-            disabled={selectedAnswerIndex === -1}
-            block
-            size="small"
-            onClick={handleNextQuestion}
-          >
-            Next
-          </Button>
-        </div>
-      </div>
-    </motion.div>
-  );
+        </motion.div>
+    );
 };

@@ -52,7 +52,9 @@ export const Intro = ({ onGetStartedClick, onSetSetOfQuestions }: IntroProps) =>
                         </div>
                     ))}
                 </div>
+                <p className="text-black font-bold text-2xl mt-[51.55px] sm:text-3xl">Choose question set.</p>
                 <Select
+                    className="items-start mt-2 w-1/2"
                     options={options}
                     defaultValue={options?.[0] ?? { value: 0, label: "Default" }}
                     onChange={(value) => onChangeSelect(value?.value ?? 0)}
